@@ -261,8 +261,7 @@ Perangkat lunak web hanya dapat digunakan di Windows (7,8,10), dan karena waktu 
 
 2.6   Asumsi-asumsi
 ----------
-Maksimal penginputan id atau memassukkan kode pada alipikasi ini adalah 9999, lebih dari itu program akan muncul peringatan”Anda telah melebihi batas maksimum
-
+Tidak ada
 
 2.7   Kebutuhan Penyeimbang
 ----------
