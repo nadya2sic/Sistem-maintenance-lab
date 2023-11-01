@@ -43,9 +43,9 @@ Pelaporan Masalah Sistem akan memungkinkan teknisi melaporkan masalah yang terja
 1.4   Referensi
 ----------
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
-- http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
-- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software  Requirements Specifications. IEEE Computer Society, 1998. 1.5  Overview 
-- pcr.ac.id
+- 
+- 
+- 
 
 1.5   Overview
 ----------
@@ -65,7 +65,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 
 2.1   Perspektif produk
 ----------
-Maintenance lab komputer Adalah sebuah sistem maintenance lab terdapat 2 jenis admin yaitu kepala teknisi, dan teknisi pengolahan data dikelola oleh kepala teknisi dan teknisi
+Maintenance Lab Komputer adalah sebuah sistem maintenance lab terdapat 2 jenis admin yaitu Kepala Teknisi, dan Teknisi pengolahan data dikelola oleh Kepala Teknisi dan Teknisi
 
 Pada Sistem Maintenance Lab Komputer ini akan menghasilkan laporan data yang sudah di inputkan oleh teknisi.
 
@@ -82,7 +82,7 @@ Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Projek%20Framework_page-0001.jpg?raw=true) Pada halaman login user diminta untuk mengisi username dan password yang telah diberikan.| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/1.jpg?raw=true) Pada Dashboard Teknisi terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
+| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Projek%20Framework_page-0001.jpg?raw=true) Pada halaman login user diminta untuk mengisi username dan password yang telah diberikan.| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/1.jpg?raw=true) Pada Dashboard Teknisi terdapat isi tabel-tabel maintenance bulanan.|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/2.jpg?raw=true) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/3.jpg?raw=true) Pada Halaman agama dapat menginputkan data agama penduduk|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/4.jpg?raw=true) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/5.jpg?raw=true) Pada Halaman warga dapat menginputkan data warga|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/6.jpg?raw=true) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/7.jpg?raw=true) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
@@ -119,7 +119,6 @@ Tidak ada
 | Login | Digunakan untuk mengakses aplikasi |
 | Input Data | Digunakan untuk memasukkan data-data |
 | Kembali | Digunakan untuk kembali ke halaman sebelumnya |
-| Hapus | Digunakan untuk menghapus data |
 | Edit | Digunakan untuk mengubah data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
@@ -136,104 +135,109 @@ Tidak ada
    
 **2.2.1 Teknisi Login**
 
-Use Case: Login
+Use Case: Login <br>
 Diagram : 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U1.png?raw=true)
 
-Deskripsi Singkat Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. Deskripsi langkah-langkah :
-Teknisi melakukan login dengan username dan password
-Sistem melakukan validasi login
-Bila sukses sistem akan mengarahkan ke halaman beranda
-Bila gagal sistem akan menampilkan peringatan
-Xref: Bagian 3.2.1, Login Teknisi
+Deskripsi Singkat Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. <br>
+Deskripsi langkah-langkah :<br>
+Teknisi melakukan login dengan username dan password<br>
+Sistem melakukan validasi login<br>
+Bila sukses sistem akan mengarahkan ke halaman beranda<br>
+Bila gagal sistem akan menampilkan peringatan<br>
+Xref: Bagian 3.2.1, Login Teknisi<br>
 
 **2.2.2 Teknisi Menginput data maintenance lab**
 
-Use Case: Input data maintenance lab
+Use Case: Input data maintenance lab<br>
 Diagram: 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U2.png?raw=true)
 
-Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. Deskripsi Langkah-langkah
-Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit 
-Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.
-Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
-Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab
+Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
+Deskripsi Langkah-langkah<br>
+Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit <br>
+Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
+Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
+Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab<br>
 
 **2.2.3 Teknisi Mengelola data maintenance lab**
 
-Use case : Mengelola data maintenance lab
+Use case : Mengelola data maintenance lab<br>
 Diagram : 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U3.png?raw=true)
 
-Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. Deskripsi Langkah-langkah
-Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit 
-Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.
-Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
-Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab
+Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
+Deskripsi Langkah-langkah<br>
+Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit <br>
+Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
+Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
+Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab<br>
 
 
 **2.2.4 Kepala Teknisi Login**
 
-Use Case: Login
+Use Case: Login<br>
 
 Diagram :
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U4.png?raw=true)
 
-Deskripsi Singkat Kepala Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. Deskripsi langkah-langkah :
-Kepala Teknisi melakukan login dengan username dan password
-Sistem melakukan validasi login
-Bila sukses sistem akan mengarahkan ke halaman beranda
-Bila gagal sistem akan menampilkan peringatan
-Xref: Bagian 3.2.1, Login Kepala Teknisi
+Deskripsi Singkat Kepala Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. <br>
+Deskripsi langkah-langkah :<br>
+Kepala Teknisi melakukan login dengan username dan password<br>
+Sistem melakukan validasi login<br>
+Bila sukses sistem akan mengarahkan ke halaman beranda<br>
+Bila gagal sistem akan menampilkan peringatan<br>
+Xref: Bagian 3.2.1, Login Kepala Teknisi<br>
 
       
 ****2.2.5  Kepala Teknisi Mengelola Data Maintenance Lab**
 
-Use Case: Mengelola Data Maintenance lab
+Use Case: Mengelola Data Maintenance lab<br>
 Diagram 
 
 
 Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U5.png?raw=true)
       
-Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware kepala teknisi dapat melakukan edit dan hapus sesuai kebutuhan. Deskripsi Langkah-langkah
-Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit 
-Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.
-Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
-Xref: Bagian 3.2.3, Kepala Teknisi Mengelola Data maintenance lab
+Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware kepala teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
+Deskripsi Langkah-langkah<br>
+Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit <br>
+Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
+Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
+Xref: Bagian 3.2.3, Kepala Teknisi Mengelola Data maintenance lab<br>
 
 **2.2.6   Kepala Teknisi Melihat Data Maintenance Lab**
 
 
-Use Case: View Data Maintenance lab
+Use Case: View Data Maintenance lab<br>
 Diagram 
 
 Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U6.png?raw=true)
 
-Deskripsi Singkat Kepala Teknisi dapat melihat data maintenance lab setelah di inputkan. Deskripsi Langkah-langkah 
-Sistem akan menampilkan data maintenance lab.
-Kepala teknisi melihat data dan dapat mengedit atau menghapusnya.
-Sistem menampilkan edit data maintenance lab
-Kepala Teknisi mengedit data maintenance lab yang baru atau yang sudah ada
-Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
-Xref: Bagian 3.2.6, View data maintenance lab
+Deskripsi Singkat Kepala Teknisi dapat melihat data maintenance lab setelah di inputkan. <br>
+Deskripsi Langkah-langkah <br>
+Sistem akan menampilkan data maintenance lab.<br>
+Kepala teknisi melihat data dan dapat mengedit atau menghapusnya.<br>
+Sistem menampilkan edit data maintenance lab<br>
+Kepala Teknisi mengedit data maintenance lab yang baru atau yang sudah ada<br>
+Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan<br>
+Xref: Bagian 3.2.6, View data maintenance lab<br>
   
 **2.2.7 Kepala Teknisi Mencetak laporan**
 
-Use Case:  laporan
-Diagram 
-
+Use Case:  laporan<br>
 Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U7.png?raw=true)
 
-Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke fungsi laporan. Deskripsi Langkah-langkah
-Sistem menampilkan laporan maintenance lab
-Kepala teknisi memilih combobox tersebut dan klik tombol cetak
-Sistem akan menampilkan hasil laporan.
-Kepala Teknisi mencetak laporan
+Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke fungsi laporan. <br>
+Deskripsi Langkah-langkah<br>
+Sistem menampilkan laporan maintenance lab<br>
+Kepala teknisi memilih combobox tersebut dan klik tombol cetak<br>
+Sistem akan menampilkan hasil laporan.<br>
+Kepala Teknisi mencetak laporan<br>
 Xref: Bagian 3.2.7, Cetak Laporan
-
+<br>
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
