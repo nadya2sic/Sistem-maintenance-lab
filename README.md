@@ -443,9 +443,9 @@ Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat stru
 
 | Nama | Tugas | 
 | ------ | ------ | 
-| Octanius Anggono | ERD, | 
-| Nurul Dwi Hariyati |  | 
-| Nadiya Febiola |  | 
+| Octanius Anggono | BAB 3 | 
+| Nurul Dwi Hariyati | BAB 2 | 
+| Nadiya Febiola | BAB 1 | 
 
 
 
