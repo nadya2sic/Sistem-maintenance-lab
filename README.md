@@ -157,10 +157,10 @@ Diagram:
 Deskripsi Singkat Teknisi melakukan input data maintenance lab dan sistem menyimpan data pada database. <br>
 Deskripsi Langkah-langkah:
 <br>
-Teknisi melakukan input data Software dan Hardware. <br>
-Teknisi mengklik tombol simpan.<br>
-Sistem menyimpan data maintenance lab.<br>
-Bila data sudah ada sistem akan menampilkan peringatan.<br>
+1.Teknisi melakukan input data Software dan Hardware. <br>
+2.Teknisi mengklik tombol simpan.<br>
+3.Sistem menyimpan data maintenance lab.<br>
+4.Bila data sudah ada sistem akan menampilkan peringatan.<br>
 Xref: Bagian 3.2.2, Input Data Maintenance Lab
 
 **2.2.3 Teknisi Mengelola Data Maintenance Lab**
