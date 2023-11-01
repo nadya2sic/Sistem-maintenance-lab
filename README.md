@@ -140,12 +140,9 @@ Tidak ada
    
 **2.2.1 Teknisi Login**
 
-Use Case: ogin
-Diagram 
-
-
+Use Case: Login
 Diagram : 
-![]()
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U1.png?raw=true)
 
 Deskripsi Singkat Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. Deskripsi langkah-langkah :
 Teknisi melakukan login dengan username dan password
