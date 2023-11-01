@@ -92,7 +92,7 @@ Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi 
 
 ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/antar%20perangkat%20keras.jpg?raw=true)
 
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Administrasi Data Kependudukan Desa Lohbener antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Maintenance Lab Komputer antara lain :
 
 1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
