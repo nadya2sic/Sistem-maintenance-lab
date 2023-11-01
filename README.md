@@ -71,7 +71,7 @@ Pada sistem manajemen administrasi data kependudukan ini akan menampilkan grafik
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here]([https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Screenshot%202023-11-01%20200948.png))
+![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Screenshot%202023-11-01%20200948.png?raw=true)
 
 Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi dan Teknisi. Kepala Teknisi mempunyai fungsi yaitu melakukan view Data Maintanance Lab, serta bisa melakukan Login ke sistem. Teknisi bertugas untuk menginput dan mengelola data, supaya data bisa di akses oleh Kepala Teknisi.
 
