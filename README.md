@@ -138,14 +138,14 @@ Tidak ada
 ----------
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
    
-**2.2.1 Teknisi Login
+**2.2.1 Teknisi Login**
 
 Use Case: ogin
 Diagram 
 
 
 Diagram : 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
+![]()
 
 Deskripsi Singkat Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. Deskripsi langkah-langkah :
 Teknisi melakukan login dengan username dan password
