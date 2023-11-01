@@ -438,7 +438,8 @@ Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat stru
 | Id_teknisi| int | foreignt key tabel teknisi |
 | laporan | varchar | berisi laporan maintenance |
 
-**Pembagian Laporan**
+
+**Pembagian Tugas**
 
 | Nama | Tugas | 
 | ------ | ------ | 
