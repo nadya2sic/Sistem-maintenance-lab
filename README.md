@@ -136,7 +136,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U0.png?raw=true)
    
 **2.2.1 Teknisi Login**
 
@@ -151,13 +151,11 @@ Bila sukses sistem akan mengarahkan ke halaman beranda
 Bila gagal sistem akan menampilkan peringatan
 Xref: Bagian 3.2.1, Login Teknisi
 
-**2.2.2 Teknisi Menginput data maintenance lab
+**2.2.2 Teknisi Menginput data maintenance lab**
 
 Use Case: Input data maintenance lab
-Diagram 
-
 Diagram: 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U2.png?raw=true)
 
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. Deskripsi Langkah-langkah
 Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit 
@@ -165,12 +163,12 @@ Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diub
 Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
 Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab
 
-**2.2.3 Kepala Teknisi Login
+**2.2.3 Kepala Teknisi Login**
 
 Use Case: Login
 
 Diagram :
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U4.png?raw=true)
 
 Deskripsi Singkat Kepala Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. Deskripsi langkah-langkah :
 Kepala Teknisi melakukan login dengan username dan password
@@ -180,14 +178,14 @@ Bila gagal sistem akan menampilkan peringatan
 Xref: Bagian 3.2.1, Login Kepala Teknisi
 
       
-**2.2.4 Kepala Teknisi Mengelola Data Maintenance Lab
+**2.2.4 Kepala Teknisi Mengelola Data Maintenance Lab**
 
 Use Case: Mengelola Data Maintenance lab
 Diagram 
 
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U5.png?raw=true)
       
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware kepala teknisi dapat melakukan edit dan hapus sesuai kebutuhan. Deskripsi Langkah-langkah
 Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit 
@@ -195,14 +193,14 @@ Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diub
 Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
 Xref: Bagian 3.2.3, Kepala Teknisi Mengelola Data maintenance lab
 
-**2.2.5  Kepala Teknisi Melihat Data Maintenance Lab
+**2.2.5  Kepala Teknisi Melihat Data Maintenance Lab**
 
 
 Use Case: View Data Maintenance lab
 Diagram 
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U6.png?raw=true)
 
 Deskripsi Singkat Kepala Teknisi dapat melihat data maintenance lab setelah di inputkan. Deskripsi Langkah-langkah 
 Sistem akan menampilkan data maintenance lab.
@@ -212,13 +210,13 @@ Kepala Teknisi mengedit data maintenance lab yang baru atau yang sudah ada
 Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 Xref: Bagian 3.2.6, View data maintenance lab
   
-**2.2.6 Kepala Teknisi Mencetak laporan
+**2.2.6 Kepala Teknisi Mencetak laporan**
 
 Use Case:  laporan
 Diagram 
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U7.png?raw=true)
 
 Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke fungsi laporan. Deskripsi Langkah-langkah
 Sistem menampilkan laporan maintenance lab
