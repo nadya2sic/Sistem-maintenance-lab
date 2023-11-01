@@ -3,7 +3,7 @@
 <div align="center"><h1> Sistem Maintenance Lab Komputer  <h1></div>
 	
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Logo_Resmi_PCR.png" width="400" height="400"/ > 
+  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/logo%20pcr.png?raw=true" width="900" height="200"/ > 
 <p align="center"><b>
 <br>Kelompok 8 <br>
 <br>Octanius Anggono (2257301109)<br>
