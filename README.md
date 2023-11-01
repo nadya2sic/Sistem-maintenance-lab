@@ -43,9 +43,8 @@ Pelaporan Masalah Sistem akan memungkinkan teknisi melaporkan masalah yang terja
 1.4   Referensi
 ----------
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
-- a
--
-- 
+- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software  Requirements Specifications. IEEE Computer Society, 1998. 1.5  Overview 
+- _SRSExample-webapp.pdf_
 
 1.5   Overview
 ----------
