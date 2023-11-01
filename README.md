@@ -86,10 +86,6 @@ Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi 
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/2.jpg?raw=true) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/3.jpg?raw=true) Pada Halaman agama dapat menginputkan data agama penduduk|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/4.jpg?raw=true) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/5.jpg?raw=true) Pada Halaman warga dapat menginputkan data warga|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/6.jpg?raw=true) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/7.jpg?raw=true) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kematian.png) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kelahiran.png) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kematian.png) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Laporan.png) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Lupa%20Password.png) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
-
 
 
  **2.1.3 Antarmuka perangkat keras**
@@ -163,7 +159,21 @@ Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diub
 Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
 Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab
 
-**2.2.3 Kepala Teknisi Login**
+**2.2.3 Teknisi Mengelola data maintenance lab**
+
+Use case : Mengelola data maintenance lab
+Diagram : 
+
+
+
+Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. Deskripsi Langkah-langkah
+Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit 
+Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.
+Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
+Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab
+
+
+**2.2.4 Kepala Teknisi Login**
 
 Use Case: Login
 
@@ -178,7 +188,7 @@ Bila gagal sistem akan menampilkan peringatan
 Xref: Bagian 3.2.1, Login Kepala Teknisi
 
       
-**2.2.4 Kepala Teknisi Mengelola Data Maintenance Lab**
+****2.2.5  Kepala Teknisi Mengelola Data Maintenance Lab**
 
 Use Case: Mengelola Data Maintenance lab
 Diagram 
@@ -193,7 +203,7 @@ Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diub
 Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.
 Xref: Bagian 3.2.3, Kepala Teknisi Mengelola Data maintenance lab
 
-**2.2.5  Kepala Teknisi Melihat Data Maintenance Lab**
+**2.2.6   Kepala Teknisi Melihat Data Maintenance Lab**
 
 
 Use Case: View Data Maintenance lab
@@ -210,7 +220,7 @@ Kepala Teknisi mengedit data maintenance lab yang baru atau yang sudah ada
 Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 Xref: Bagian 3.2.6, View data maintenance lab
   
-**2.2.6 Kepala Teknisi Mencetak laporan**
+**2.2.7 Kepala Teknisi Mencetak laporan**
 
 Use Case:  laporan
 Diagram 
