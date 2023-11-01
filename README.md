@@ -371,7 +371,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.7 Kepala Teknisi mencetak laporan data Maintenance Lab Komputer  |
 | Trigger | Membuka halaman hasil laporan dari teknisi |
 | Precondition | Halaman hasil laporan maintenance lab |
-| Basic Path | 1. Setelah login Kepala Teknisi membuka halaman laporan dari maintenance  <br> 2. Kepala teknisi melihat halaman laporan  <br> 2. Setelah itu kepala teknisi mencetak laporan dari maintenance  |
+| Basic Path | 1. Setelah login Kepala Teknisi membuka halaman laporan dari maintenance  <br> 2. Kepala teknisi melihat halaman laporan  <br> 3. Setelah itu kepala teknisi mencetak laporan dari maintenance  |
 | Alternative | Tidak ada  |
 | Post Condition | Tidak ada|
 | Exception Push | Tidak ada |
