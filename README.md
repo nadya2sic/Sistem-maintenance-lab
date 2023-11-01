@@ -103,7 +103,7 @@ Tidak ada
 
 **2.1.5 Antarmuka Komunikasi**
 
-Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Maintenance Lab Komputer antara lain :
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Maintenance Lab Komputer antara lain :
 1. Kabel Lan 
 2. Wifi
 
@@ -148,23 +148,24 @@ Deskripsi langkah-langkah :
 4. Bila gagal sistem akan menampilkan peringatan<br>
 Xref: Bagian 3.2.1, Login Teknisi<br>
 
-**2.2.2 Teknisi Menginput data maintenance lab**
+**2.2.2 Teknisi Menginput Data Maintenance Lab**
 
-Use Case: Input data maintenance lab<br>
+Use Case: Input Data Maintenance Lab<br>
 Diagram: 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U2.png?raw=true)
 
-Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
-Deskripsi Langkah-langkah :
+Deskripsi Singkat Teknisi melakukan input data maintenance lab dan sistem menyimpan data pada database. <br>
+Deskripsi Langkah-langkah:
 <br>
-1. Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit <br>
-2. Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
-3. Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
-Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab<br>
+Teknisi melakukan input data Software dan Hardware. <br>
+Teknisi mengklik tombol simpan.<br>
+Sistem menyimpan data maintenance lab.<br>
+Bila data sudah ada sistem akan menampilkan peringatan.<br>
+Xref: Bagian 3.2.2, Input Data Maintenance Lab
 
-**2.2.3 Teknisi Mengelola data maintenance lab**
+**2.2.3 Teknisi Mengelola Data Maintenance Lab**
 
-Use case : Mengelola data maintenance lab<br>
+Use case : Mengelola Data Maintenance Lab<br>
 Diagram : 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U3.png?raw=true)
 
@@ -203,7 +204,7 @@ Diagram:
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware kepala teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
 Deskripsi Langkah-langkah :
 <br>
-1. Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit <br>
+1. Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit.<br>
 2. Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
 3. Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
 Xref: Bagian 3.2.3, Kepala Teknisi Mengelola Data maintenance lab<br>
@@ -220,9 +221,9 @@ Deskripsi Langkah-langkah :
 <br>
 1. Sistem akan menampilkan data maintenance lab.<br>
 2. Kepala teknisi melihat data dan dapat mengedit atau menghapusnya.<br>
-3. Sistem menampilkan edit data maintenance lab<br>
-4. Kepala Teknisi mengedit data maintenance lab yang baru atau yang sudah ada<br>
-5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan<br>
+3. Sistem menampilkan edit data maintenance lab.<br>
+4. Kepala Teknisi mengedit data maintenance lab yang baru atau yang sudah ada.<br>
+5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan.<br>
 Xref: Bagian 3.2.6, View data maintenance lab<br>
   
 **2.2.7 Kepala Teknisi Mencetak laporan**
@@ -234,10 +235,10 @@ Diagram:
 Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke fungsi laporan. <br>
 Deskripsi Langkah-langkah:
 <br>
-1. Sistem menampilkan laporan maintenance lab<br>
-2. Kepala teknisi memilih combobox tersebut dan klik tombol cetak<br>
+1. Sistem menampilkan laporan maintenance lab.<br>
+2. Kepala teknisi memilih combobox tersebut dan klik tombol cetak.<br>
 3. Sistem akan menampilkan hasil laporan.<br>
-4. Kepala Teknisi mencetak laporan<br>
+4. Kepala Teknisi mencetak laporan.<br>
 Xref: Bagian 3.2.7, Cetak Laporan
 <br>
 
@@ -380,7 +381,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada Sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/erd.png?raw=true)
 
