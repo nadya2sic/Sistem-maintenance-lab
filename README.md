@@ -163,8 +163,7 @@ Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab
 
 Use case : Mengelola data maintenance lab
 Diagram : 
-
-
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U3.png?raw=true)
 
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. Deskripsi Langkah-langkah
 Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit 
