@@ -277,12 +277,13 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.1, Login Teknisi |
 | Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer
 | Precondition | Halaman Login|
-| Basic Path | 1. Teknisi mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan|peringatan |
+| Basic Path | 1. Teknisi mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Teknisi dapat login dan mengakses aplikasi Sistem Informasi Maintenance Lab Komputer |
+| Post Condition | Kepala Teknisi dan Teknisi dapat login dan mengakses aplikasi Sistem Informasi Maintenance Lab Komputer |
 | Exception Push | Username dan password salah |
 
-      
+<br>
+
 **3.2.2 Teknisi Menginput Data Maintenance Lab Komputer**
 
 |  |  |
@@ -291,10 +292,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.2, Teknisi menginputkan data Maintenance Lab Komputer |
 | Trigger | Membuka halaman Input Data |
 | Precondition | Halaman input data |
-| Basic Path | 1.Setelah login, teknisi membuka halaman maintenance lab komputer <br> 2.Teknisi menginputkan data Software dan Hardware  <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
+| Basic Path | 1.Setelah login, teknisi membuka halaman lab komputer <br> 2.Teknisi menginputkan data Software dan Hardware sesuai dengan lab dan komputer  <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
 | Alternative | Tidak ada |
 | Post Condition | Teknisi dapat menginputkan dan menyimpan inputan data |
 | Exception Push | Tidak ada |
+
+<br>
 
 **3.2.3 Teknisi Mengelola data maintenance lab**
 
@@ -309,7 +312,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Teknisi dapat menginputkan dan menyimpan inputan data |
 | Exception Push | Tidak ada  |
 
-
+<br>
    
 **3.2.3 Kepala Teknisi Login**
 |  |  |
@@ -318,11 +321,13 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.1, Login Teknisi |
 | Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer
 | Precondition | Halaman Login|
-| Basic Path | 1. Teknisi mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan|peringatan |
+| Basic Path | 1. Teknisi mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Teknisi dapat login dan mengakses aplikasi Sistem Informasi Maintenance Lab Komputer |
 | Exception Push | Username dan password salah |
-   
+
+<br>
+
 **3.2.4 Kepala Teknisi Mengelola data maintenance lab**
 
 |  |  |
@@ -331,7 +336,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.3, Teknisi mengelola data maintenance lab |
 | Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer |
 | Precondition | Halaman Utama Teknisi |
-| Basic Path | 1. Setelah login, kepala teknisi, membuka halaman Maintenance Lab komputer <br> 2. Setelah itu kepala teknisi melihat data yang sudah di olah dari teknisi bakal diolah lebih detail lagi <br> 3. Kepala teknisi mengirim data data yang terjadi di Maintenance Lab Komputer|
+| Basic Path | 1. Setelah login, kepala teknisi, membuka halaman Maintenance Lab komputer <br> 2. Setelah itu kepala teknisi melihat data yang sudah di olah dari teknisi bakal diolah lebih detail lagi <br> 3. Kepala teknisi mengirim data-data yang terjadi di Maintenance Lab Komputer|
 | Alternative | Tidak ada |
 | Post Condition | Teknisi dapat menginputkan dan menyimpan inputan data  |
 | Exception Push | Tidak ada |
