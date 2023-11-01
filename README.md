@@ -59,7 +59,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
   - Kelola data Maintenance Lab
   - Laporan
 
-   -    Berikut ini fungsi Kepala Teknisi dalam bentuk grafik :
+    Berikut ini fungsi Kepala Teknisi dalam bentuk grafik :
 - Kelola data maintenance lab
 - View laporan 
 
@@ -67,7 +67,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 ----------
 Maintenance lab komputer Adalah sebuah sistem maintenance lab terdapat 2 jenis admin yaitu kepala teknisi, dan teknisi pengolahan data dikelola oleh kepala teknisi dan teknisi
 
-Pada sistem manajemen administrasi data kependudukan ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin
+Pada Sistem Maintenance Lab Komputer ini akan menghasilkan laporan data yang sudah di inputkan oleh teknisi.
 
 **2.1.1 Antarmuka sistem**
 
@@ -82,7 +82,7 @@ Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Projek%20Framework_page-0001.jpg?raw=true) Pada halaman login user diminta untuk mengisi username dan password yang telah diberikan.| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/1.jpg?raw=true) Pada Dashboard admin terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
+| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Projek%20Framework_page-0001.jpg?raw=true) Pada halaman login user diminta untuk mengisi username dan password yang telah diberikan.| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/1.jpg?raw=true) Pada Dashboard Teknisi terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/2.jpg?raw=true) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/3.jpg?raw=true) Pada Halaman agama dapat menginputkan data agama penduduk|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/4.jpg?raw=true) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/5.jpg?raw=true) Pada Halaman warga dapat menginputkan data warga|
 | ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/6.jpg?raw=true) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/7.jpg?raw=true) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
