@@ -28,7 +28,7 @@ Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) adalah dokumen yang merinci
 
 1.2   Lingkup
 ----------
-Pelaporan Masalah Sistem akan memungkinkan teknisi melaporkan masalah yang terjadi di laboratorium dengan mudah dan Pembaruan Software/ Hardware Sistem akan memungkinkan teknisi merencanakan, mengelola, dan melaksanakan pembaruan perangkat lunak dan perangkat keras secara efisien. Dan Pelacakan Perangkat Sistem akan memungkinkan teknisi untuk melacak keberadaan dan status komputer di laboratorium. Hal ini dapat membantu memantau ketersediaan perangkat, memastikan bahwa mereka berfungsi dengan baik, dan menemukan komputer yang memerlukan perbaikan atau pembaruan.
+Pelaporan Masalah Sistem akan memungkinkan teknisi melaporkan masalah yang terjadi di laboratorium dengan mudah dan Pembaruan Software/ Hardware Sistem akan memungkinkan teknisi mengelola dan melaksanakan pembaruan perangkat lunak dan perangkat keras secara efisien. Hal ini dapat membantu memantau ketersediaan perangkat, memastikan bahwa mereka berfungsi dengan baik, dan menemukan komputer yang memerlukan perbaikan atau pembaruan.
 
 
 1.3    Akronim, singkatan, definisi
