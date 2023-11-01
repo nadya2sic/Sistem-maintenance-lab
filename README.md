@@ -192,7 +192,7 @@ Deskripsi langkah-langkah :
 2. Sistem melakukan validasi login<br>
 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
 4. Bila gagal sistem akan menampilkan peringatan<br>
-Xref: Bagian 3.2.1, Login Kepala Teknisi<br>
+Xref: Bagian 3.2.4, Login Kepala Teknisi<br>
 
       
 ****2.2.5  Kepala Teknisi Mengelola Data Maintenance Lab**
@@ -207,7 +207,7 @@ Deskripsi Langkah-langkah :
 1. Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit.<br>
 2. Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
 3. Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
-Xref: Bagian 3.2.3, Kepala Teknisi Mengelola Data maintenance lab<br>
+Xref: Bagian 3.2.5, Kepala Teknisi Mengelola Data maintenance lab<br>
 
 **2.2.6   Kepala Teknisi Melihat Data Maintenance Lab**
 
