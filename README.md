@@ -140,7 +140,8 @@ Diagram :
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U1.png?raw=true)
 
 Deskripsi Singkat Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. <br>
-Deskripsi langkah-langkah :<br>
+Deskripsi langkah-langkah :
+<br>
 1. Teknisi melakukan login dengan username dan password<br>
 2. Sistem melakukan validasi login<br>
 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
@@ -154,7 +155,8 @@ Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U2.png?raw=true)
 
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
-Deskripsi Langkah-langkah<br>
+Deskripsi Langkah-langkah :
+<br>
 1. Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit <br>
 2. Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
 3. Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
@@ -167,7 +169,8 @@ Diagram :
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U3.png?raw=true)
 
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
-Deskripsi Langkah-langkah<br>
+Deskripsi Langkah-langkah :
+<br>
 1.Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit <br>
 2.Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
 3.Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
@@ -182,11 +185,12 @@ Diagram :
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U4.png?raw=true)
 
 Deskripsi Singkat Kepala Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. <br>
-1. Deskripsi langkah-langkah :<br>
-2. Kepala Teknisi melakukan login dengan username dan password<br>
-3. Sistem melakukan validasi login<br>
-4. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
-5. Bila gagal sistem akan menampilkan peringatan<br>
+Deskripsi langkah-langkah :
+<br>
+1. Kepala Teknisi melakukan login dengan username dan password<br>
+2. Sistem melakukan validasi login<br>
+3. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
+4. Bila gagal sistem akan menampilkan peringatan<br>
 Xref: Bagian 3.2.1, Login Kepala Teknisi<br>
 
       
@@ -197,7 +201,8 @@ Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U5.png?raw=true)
       
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware kepala teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
-Deskripsi Langkah-langkah<br>
+Deskripsi Langkah-langkah :
+<br>
 1. Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit <br>
 2. Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
 3. Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
@@ -211,7 +216,8 @@ Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U6.png?raw=true)
 
 Deskripsi Singkat Kepala Teknisi dapat melihat data maintenance lab setelah di inputkan. <br>
-Deskripsi Langkah-langkah <br>
+Deskripsi Langkah-langkah :
+<br>
 1. Sistem akan menampilkan data maintenance lab.<br>
 2. Kepala teknisi melihat data dan dapat mengedit atau menghapusnya.<br>
 3. Sistem menampilkan edit data maintenance lab<br>
@@ -226,11 +232,12 @@ Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U7.png?raw=true)
 
 Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke fungsi laporan. <br>
-Deskripsi Langkah-langkah<br>
-Sistem menampilkan laporan maintenance lab<br>
-Kepala teknisi memilih combobox tersebut dan klik tombol cetak<br>
-Sistem akan menampilkan hasil laporan.<br>
-Kepala Teknisi mencetak laporan<br>
+Deskripsi Langkah-langkah:
+<br>
+1. Sistem menampilkan laporan maintenance lab<br>
+2. Kepala teknisi memilih combobox tersebut dan klik tombol cetak<br>
+3. Sistem akan menampilkan hasil laporan.<br>
+4. Kepala Teknisi mencetak laporan<br>
 Xref: Bagian 3.2.7, Cetak Laporan
 <br>
 
@@ -317,11 +324,11 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 <br>
    
-**3.2.3 Kepala Teknisi Login**
+**3.2.4 Kepala Teknisi Login**
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Teknisi |
+| Xref | Bagian 2.2.4, Login Kepala Teknisi |
 | Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer
 | Precondition | Halaman Login|
 | Basic Path | 1. Teknisi mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
@@ -331,12 +338,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 <br>
 
-**3.2.4 Kepala Teknisi Mengelola data maintenance lab**
+**3.2.5 Kepala Teknisi Mengelola data maintenance lab**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola data maintenance lab |
-| Xref | Bagian 2.2.3, Teknisi mengelola data maintenance lab |
+| Xref | Bagian 2.2.5, Kepala Teknisi mengelola data maintenance lab |
 | Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer |
 | Precondition | Halaman Utama Teknisi |
 | Basic Path | 1. Setelah login, kepala teknisi, membuka halaman Maintenance Lab komputer <br> 2. Setelah itu kepala teknisi melihat data yang sudah di olah dari teknisi bakal diolah lebih detail lagi <br> 3. Kepala teknisi mengirim data-data yang terjadi di Maintenance Lab Komputer|
@@ -344,7 +351,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Teknisi dapat menginputkan dan menyimpan inputan data  |
 | Exception Push | Tidak ada |
    
-**3.2.5 Kepala Teknisi Melihat Data Maintenance Lab Komputer**
+**3.2.6 Kepala Teknisi Melihat Data Maintenance Lab Komputer**
 
 |  |  |
 |--|--|
@@ -357,7 +364,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition |Teknisi dapat menginputkan dan menyimpan inputan data Tidak ada |
 | Exception Push | Tidak ada |
    
-**3.2.6 Kepala Teknisi Mencetak Laporan**
+**3.2.7 Kepala Teknisi Mencetak Laporan**
 |  |  |
 |--|--|
 | Nama Fungsi |Mencetak Laporan|
@@ -366,14 +373,14 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Precondition | Halaman hasil laporan maintenance lab |
 | Basic Path | 1. Setelah login Kepala Teknisi membuka halaman laporan dari maintenance  <br> 2. Kepala teknisi melihat halaman laporan  <br> 2. Setelah itu kepala teknisi mencetak laporan dari maintenance  |
 | Alternative | Tidak ada  |
-| Post Condition | |
+| Post Condition | Tidak ada|
 | Exception Push | Tidak ada |
 
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+Struktur data logika pada Sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/erd.png?raw=true)
 
