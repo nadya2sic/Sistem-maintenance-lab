@@ -195,7 +195,7 @@ Deskripsi langkah-langkah :
 Xref: Bagian 3.2.4, Login Kepala Teknisi<br>
 
       
-****2.2.5  Kepala Teknisi Mengelola Data Maintenance Lab**
+**2.2.5  Kepala Teknisi Mengelola Data Maintenance Lab**
 
 Use Case: Mengelola Data Maintenance lab<br>
 Diagram:
