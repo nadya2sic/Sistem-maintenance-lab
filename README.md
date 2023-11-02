@@ -439,7 +439,7 @@ Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat stru
 | laporan | varchar | berisi laporan maintenance |
 
 
-**Job Desc**
+**Job Desc** <br>
 BAB 1 PENDHULUAN <br>
 1.1 Tujuan : Nurul <br>
 1.2 Lingkup : Nadya <br>
