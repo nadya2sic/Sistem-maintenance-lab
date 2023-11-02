@@ -447,5 +447,34 @@ Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat stru
 | Nurul Dwi Hariyati | BAB 2 | 
 | Nadiya Febiola | BAB 1 | 
 
+**Job Desc**
+BAB 1 PENDHULUAN
+1.1 Tujuan : Nurul
+1.2 Lingkup : Nadya
+1.3 Akronim, singkatan, definisi : Nadya
+1.4 Referensi : Nurul
+1.5 Overview : Nadya, Nurul, Octa
+BAB 2 Gambaran Umum
+2.1 Perspektif Produk : Nadya
+2.1.1 Antarmuka Sistem : Octa
+2.1.2 Antarmuka pengguna : Nurul
+2.1.3 Antarmuka perangkat keras : Nurul
+2.1.4 Antarmuka perangkat lunak : Nadya, Nurul, Octa
+2.1.5 Antarmuka Komunikasi : Nadya, Nurul, Octa
+2.1.6 Batasan memori : Nadya, Nurul, Octa
+2.1.7 Operasi-operas : Octa
+2.1.8 Kebutuhan adaptasi : Nadya, Nurul, Octa
+2.2 Spesifikasi Kebutuhan fungsional : Nurul
+2.3 Spesifikasi Kebutuhan non-fungsional : Nadya, Nurul, Octa
+2.4 Karakteristik pengguna : Nadya, Nurul, Octa
+2.5 Batasan-batasan : Nadya, Nurul, Octa
+2.6 Asumsi-asumsi : Nadya, Nurul, Octa
+2.7 Kebutuhan Penyeimbang : Nadya, Nurul, Octa
+BAB III Requirement specification
+3.1 Persyaratan Antarmuka Eksternal : Nadya, Nurul, Octa
+3.2 Functional Requirement : Nadya, Nurul, Octa
+3.3 Struktur Detail Kebutuhan Non-Fungsional : Octa
+FIGMA : Nurul
+GitHub : Nadya, Nurul, Octa
 
 
