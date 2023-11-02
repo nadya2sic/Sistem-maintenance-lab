@@ -440,13 +440,13 @@ Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat stru
 
 
 **Job Desc** <br>
-BAB 1 PENDHULUAN <br>
+**BAB 1 PENDHULUAN** <br>
 1.1 Tujuan : Nurul <br>
 1.2 Lingkup : Nadya <br>
 1.3 Akronim, singkatan, definisi : Nadya <br>
 1.4 Referensi : Nurul <br>
 1.5 Overview : Nadya, Nurul, Octa <br>
-BAB 2 Gambaran Umum <br>
+**BAB 2 Gambaran Umum** <br>
 2.1 Perspektif Produk : Nadya <br>
 2.1.1 Antarmuka Sistem : Octa <br>
 2.1.2 Antarmuka pengguna : Nurul <br>
@@ -462,7 +462,7 @@ BAB 2 Gambaran Umum <br>
 2.5 Batasan-batasan : Nadya, Nurul, Octa <br>
 2.6 Asumsi-asumsi : Nadya, Nurul, Octa <br>
 2.7 Kebutuhan Penyeimbang : Nadya, Nurul, Octa <br>
-BAB III Requirement specification <br>
+**BAB 3 Requirement specification** <br>
 3.1 Persyaratan Antarmuka Eksternal : Nadya, Nurul, Octa <br>
 3.2 Functional Requirement : Nadya, Nurul, Octa <br>
 3.3 Struktur Detail Kebutuhan Non-Fungsional : Octa <br>
