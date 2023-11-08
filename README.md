@@ -408,7 +408,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/erd.png?raw=true)
+![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/erd%20ke%202.png?raw=true)
 
 **Tabel Akun**
 
