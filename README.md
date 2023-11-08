@@ -408,7 +408,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/erd%20ke%202.png?raw=true)
+![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/erd%203.png?raw=true)
 
 **Tabel User**
 
@@ -433,45 +433,33 @@ Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat stru
 | kelas | varchar | berisikan kelas dari siswa yang melakukan pengaduan |
 | jam | datetime | berisikan jam kelas dari siswa yang melakukan pengaduan |
 | mata_pelajaran | varchar | berisikan mata pelajaran dari siswa yang melakukan pengaduan |
+| keluhan | teks | berisikan keluhan dari siswa yang melakukan pengaduan |
 
-**Tabel Kepala Teknisi**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kepala_teknisi | int | Nomer auto increment Id_kepala_teknisi|
-| Id_user| int | untuk mengambil username dan password admin pada tabel user|
-| Username | varchar | berisikan username untuk akses login user dan username untuk akses admin |
-| Password | varchar | berisikan password untuk login admin dan user |
-
-**Tabel Hardware**
+**Tabel Perangkat**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_software| int | Nomer auto increment Id_kelahiran|
-| Id_teknisi| int | foreignt key tabel teknisi |
-| monitor| varchar | Keterangan rusak atau tidak rusak |
-| pc| varchar |Keterangan rusak atau tidak rusak|
-| keyBoard | varchar | Keterangan rusak atau tidak rusak|
-| mouse | varchar |Keterangan rusak atau tidak rusak|
+| Id_perangkat | int | Nomer auto increment Id_perangkat|
+| Id_Lab| int | foreignt key tabel lab |
+| Id_Laporan| int | foreignt key tabel Laporan |
+| nama | varchar | berisikan nama perangkat yang diinput |
+| deskripsi | teks | berisikan deskripsi yang menjelaskan kondisi dari perangkat |
 
-**Tabel Software**
+**Tabel Lab**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_hardware| int | Nomer auto increment Id_hardware|
-| Id_teknisi| int | foreignt key tabel teknisi |
-| windows| varchar | Keterangan rusak atau tidak rusak |
-| aplikasi| varchar | Keterangan rusak atau tidak rusak |
-| anti-virus | varchar | Keterangan rusak atau tidak rusak |
+| Id_Lab| int | Nomer auto increment Id_lab|
+| Id_Laporan| int | foreignt key tabel Laporan |
+| pic_lab | varchar | orang yang memeriksa lab |
 
 **Tabel Laporan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_laporan| int | Nomer auto increment Id_laporan|
-| Id_teknisi| int | foreignt key tabel teknisi |
-| laporan | varchar | berisi laporan maintenance |
-
+| Id_user| int | untuk mengambil username, password dan roles admin pada tabel user |
+| catatan | teks | berisi laporan maintenance |
 
 **Job Desc** <br>
 **BAB 1 PENDHULUAN** <br>
