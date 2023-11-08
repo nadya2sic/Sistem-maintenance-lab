@@ -242,6 +242,38 @@ Deskripsi Langkah-langkah:
 Xref: Bagian 3.2.7, Cetak Laporan
 <br>
 
+**2.2.8 Siswa Login**
+
+Use Case: Login <br>
+Diagram : 
+![]()
+
+Deskripsi Singkat Siswa melakukan login terlebih dahulu sebelum masuk ke tampilan home, siswa login menggunakan username dan password yang diberikan oleh admin. <br>
+Deskripsi langkah-langkah :
+<br>
+1. Siswa melakukan login dengan username dan password<br>
+2. Sistem melakukan validasi login<br>
+3. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
+4. Bila gagal sistem akan menampilkan peringatan<br>
+Xref: Bagian 3.2.8, Login siswa<br>
+
+**2.2.9 Siswa Mengisi Form Pengaduan**
+
+Use Case: Mengisi Form Pengaduan <br>
+Diagram : 
+![]()
+
+Deskripsi Singkat Siswa mengisi form pengaduan dengan isi beberapa data diri baru dapat melanjutkan untuk mengisi pengaduan. <br>
+Deskripsi langkah-langkah :
+<br>
+1. Siswa mnegisi data-data diri terlebih dahulu. <br>
+2. Setelah semua data terisi, maka siswa dapat melanjutkan ke halaman berikutnya. <br>
+3. Setelah itu, sistem akan mengarahkan ke halaman selanjutnya yang siswa dapat mengisi pengaduan. <br>
+4. Setelah diisi form pengaduan maka tekan tombol simpan<br>
+5. Setelah berhasil di simpan, sistem akan mengarahkan ke halaman dashboard. <br>
+Xref: Bagian 3.2.9, Siswa mengisi Form Pengaduan <br>
+
+
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
 - Tabel Kebutuhan Non-Fungsional 
@@ -393,13 +425,13 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.2.9.Siswa Mengisi Form Pengaduan**
 |  |  |
 |--|--|
-| Nama Fungsi |Mengisi Pengaduan|
-| Xref | Bagian 2.2.9 Siswa melaporkan kerusakan yang ada di Maintenance Lab Komputer  |
-| Trigger | Membuka halaman hasil laporan dari teknisi |
-| Precondition | Halaman hasil laporan maintenance lab |
+| Nama Fungsi | Pengaduan |
+| Xref | Bagian 2.2.9 Siswa Mengisi Form Pengaduan |
+| Trigger | terdapat kerusakan dalam bagian komputer |
+| Precondition | Halaman Login |
 | Basic Path |  1.Setelah login, siswa membuka halaman lab komputer <br> 2 siswa mengajukan pengaduan kerusakan yang ada di Maintenance Lab komputer <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
 | Alternative | Tidak ada  |
-| Post Condition | Tidak ada|
+| Post Condition | Pengaduan berhasil disimpan |
 | Exception Push | Tidak ada |
 
    
