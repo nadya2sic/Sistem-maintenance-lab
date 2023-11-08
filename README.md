@@ -61,11 +61,12 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 
     Berikut ini fungsi Kepala Teknisi dalam bentuk grafik :
 - Kelola data maintenance lab
-- View laporan 
+- View laporan
+  	
 
 2.1   Perspektif produk
 ----------
-Maintenance Lab Komputer adalah sebuah sistem maintenance lab terdapat 2 jenis admin yaitu Kepala Teknisi, dan Teknisi pengolahan data dikelola oleh Kepala Teknisi dan Teknisi
+Maintenance Lab Komputer adalah sebuah sistem maintenance lab terdapat 2 jenis admin yaitu Kepala Teknisi, dan Teknisi pengolahan data dikelola oleh Kepala Teknisi dan Teknisi.
 
 Pada Sistem Maintenance Lab Komputer ini akan menghasilkan laporan data yang sudah di inputkan oleh teknisi.
 
@@ -261,7 +262,7 @@ Xref: Bagian 3.2.8, Login siswa<br>
 
 Use Case: Mengisi Form Pengaduan <br>
 Diagram : 
-![]()
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/siswaisiform.jpg?raw=true)
 
 Deskripsi Singkat Siswa mengisi form pengaduan dengan isi beberapa data diri baru dapat melanjutkan untuk mengisi pengaduan. <br>
 Deskripsi langkah-langkah :
