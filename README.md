@@ -376,6 +376,32 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Tidak ada|
 | Exception Push | Tidak ada |
 
+
+**3.2.8.Siswa Login**
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.8, Login Siswa|
+| Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer
+| Precondition | Halaman Login|
+| Basic Path | 1.Siswa mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Teknisi dapat login dan mengakses aplikasi Sistem Informasi Maintenance Lab Komputer |
+| Exception Push | Username dan password salah |
+
+
+**3.2.9.Siswa Mengisi Form Pengaduan**
+|  |  |
+|--|--|
+| Nama Fungsi |Mengisi Pengaduan|
+| Xref | Bagian 2.2.9 Siswa melaporkan kerusakan yang ada di Maintenance Lab Komputer  |
+| Trigger | Membuka halaman hasil laporan dari teknisi |
+| Precondition | Halaman hasil laporan maintenance lab |
+| Basic Path |  1.Setelah login, siswa membuka halaman lab komputer <br> 2 siswa membuat pengaduan kerusakan yang ada di Maintenance Lab komputer <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
+| Alternative | Tidak ada  |
+| Post Condition | Tidak ada|
+| Exception Push | Tidak ada |
+
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
