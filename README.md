@@ -44,6 +44,7 @@ Pelaporan Masalah Sistem akan memungkinkan teknisi melaporkan masalah yang terja
 ----------
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 - https://media.neliti.com/media/publications/300316-aplikasi-sistem-monitoring-keadaan-kompu-f78261ed.pdf
+- https://jsi.stikom-bali.ac.id/index.php/jsi/article/view/86
 - IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software  Requirements Specifications. IEEE Computer Society, 1998. 1.5  Overview 
 - _SRSExample-webapp.pdf_
 
