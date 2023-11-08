@@ -66,7 +66,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 
 2.1   Perspektif produk
 ----------
-Maintenance Lab Komputer adalah sebuah sistem maintenance lab terdapat 2 jenis admin yaitu Kepala Teknisi, dan Teknisi pengolahan data dikelola oleh Kepala Teknisi dan Teknisi.
+Maintenance Lab Komputer adalah sebuah sistem maintenance lab terdapat 3 jenis user yaitu Kepala Teknisi, Teknisi dan Siswa.
 
 Pada Sistem Maintenance Lab Komputer ini akan menghasilkan laporan data yang sudah di inputkan oleh teknisi.
 
