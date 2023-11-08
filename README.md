@@ -71,7 +71,7 @@ Pada Sistem Maintenance Lab Komputer ini akan menghasilkan laporan data yang sud
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Screenshot%202023-11-01%20200948.png?raw=true)
+![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/use%20case%202.png?raw=true)
 
 Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi dan Teknisi. Kepala Teknisi mempunyai fungsi yaitu melakukan view Data Maintanance Lab, serta bisa melakukan Login ke sistem. Teknisi bertugas untuk menginput dan mengelola data, supaya data bisa di akses oleh Kepala Teknisi.
 
