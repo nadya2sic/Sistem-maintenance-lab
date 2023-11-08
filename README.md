@@ -131,7 +131,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/123.jpg?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/spesifikasi%202.jpg?raw=true)
    
 **2.2.1 Teknisi Login**
 
