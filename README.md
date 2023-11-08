@@ -1,21 +1,8 @@
 <html>
 <body>
-<div align="center"><h1> Sistem Maintenance Lab Komputer  <h1></div>
-	
 <p align="center">
-  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/logo%20pcr.png?raw=true" width="900" height="170"/ > 
+  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/cover.png?raw=true" width="900" height="170"/ > 
 <p align="center"><b>
-<br>Kelompok 8 <br>
-<br>Octanius Anggono (2257301109)<br>
-<br>Nadiya Febiola (2257301099)<br>
-<br>Nurul Dwi Hariyati (2257301108)<br>
- </b></p>
- <br><br><br>
-<p align="center"><b>Jurusan Sistem Informasi<br>
-<br>Politeknik Caltex Riau<br>
-<br>2023<br>
-</b>
-</p>
 </body>
 </html>
 
