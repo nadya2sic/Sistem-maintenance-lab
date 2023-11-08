@@ -397,7 +397,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.9 Siswa melaporkan kerusakan yang ada di Maintenance Lab Komputer  |
 | Trigger | Membuka halaman hasil laporan dari teknisi |
 | Precondition | Halaman hasil laporan maintenance lab |
-| Basic Path |  1.Setelah login, siswa membuka halaman lab komputer <br> 2 siswa membuat pengaduan kerusakan yang ada di Maintenance Lab komputer <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
+| Basic Path |  1.Setelah login, siswa membuka halaman lab komputer <br> 2 siswa mengajukan pengaduan kerusakan yang ada di Maintenance Lab komputer <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
 | Alternative | Tidak ada  |
 | Post Condition | Tidak ada|
 | Exception Push | Tidak ada |
