@@ -410,21 +410,29 @@ Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat stru
 
 ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/erd%20ke%202.png?raw=true)
 
-**Tabel Akun**
+**Tabel User**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_akun| int | Nomer auto increment Id_akun|
+| Id_user| int | Nomer auto increment Id_user|
 | Username | varchar | berisikan username untuk akses login user dan username untuk akses admin |
 | Password | varchar | berisikan password untuk login admin dan user |
+| nama | varchar | berisikan nama dari user yang masuk |
+| no_hp | number | berisikan no_hp dari user yang masuk|
+| roles | varchar | berisikan user yang memiliki akses yang berbeda |
 
-**Tabel Teknisi**
+**Tabel Pengaduan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_teknisi | int | Nomer auto increment Id_teknisi |
-| Username | varchar | berisikan username untuk akses login user dan username untuk akses admin |
-| Password | varchar | berisikan password untuk login admin dan user |
+| Id_pengaduan | int | Nomer auto increment Id_pengaduan |
+| Id_user| int | untuk mengambil username, password dan roles admin pada tabel user |
+| pc | varchar | berisikan pc dari siswa yang melakukan pengaduan |
+| lab | varchar | berisikan lab dari siswa yang melakukan pengaduan |
+| nama | varchar | berisikan nama dari siswa yang melakukan pengaduan |
+| kelas | varchar | berisikan kelas dari siswa yang melakukan pengaduan |
+| jam | datetime | berisikan jam kelas dari siswa yang melakukan pengaduan |
+| mata_pelajaran | varchar | berisikan mata pelajaran dari siswa yang melakukan pengaduan |
 
 **Tabel Kepala Teknisi**
 
