@@ -146,13 +146,10 @@ Diagram :
 Deskripsi singkat Kepala Laboratorium melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
-1. Kepala Laboratorium melakukan login
-
-2. Sistem melakukan validasi
-
-3. Bila validasi berhasil akan mengarahkan ke halaman beranda
-
-4. Bila gagal sistem akan menampilkan peringatan
+1. Kepala Laboratorium melakukan login <br>
+2. Sistem melakukan validasi <br>
+3. Bila validasi berhasil akan mengarahkan ke halaman beranda<br>
+4. Bila gagal sistem akan menampilkan peringatan<br>
 
 **2.2.2 Admin melakukan Login**
 
@@ -164,11 +161,8 @@ Deskripsi singkat Admin melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
 1. Admin melakukan login
-
 2. Sistem melakukan validasi
-
 3. Bila validasi berhasil akan mengarahkan ke halaman beranda
-
 4. Bila gagal sistem akan menampilkan peringatan
 
 **2.2.3 siswa melakukan Login**
@@ -181,11 +175,8 @@ Deskripsi singkat siswa melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
 1. Mahasiswa melakukan login
-
 2. Sistem melakukan validasi
-
 3. Bila validasi berhasil akan mengarahkan ke halaman beranda
-
 4. Bila gagal sistem akan menampilkan peringatan
 
 
@@ -199,9 +190,7 @@ Diagram :
 Deskripsi singkat Kepala Lab mengelola user.
 Deskripsi langkah-langkah:
 1.Kepala Lab mengklik manajemen user,lalu kepala lab bisa melihat user,menghapus user,menambah user dan mengedit user <br>
-
 2.Sistem akan menyimpan data user dan akan menampilkan data user yang dipilih <br>
-
 3.Kepala Lab bisa menghapus hak akses user<br>
 
       
@@ -214,11 +203,8 @@ Diagram:
 Deskripsi singkat Kepala Laboratorium mengelola Dashboard.
 Deskripsi langkah-langkah:
 1.Kepala lab masuk ke halaman dashboard SuperAdmin  <br>
-
 2.Sistem menampilkan halaman dashboard SuperAdmin <br>
-
 3.Kepala lab dapat Melihat data dan dapat menambah,mengedit atau menghapus data.<br>
-
 4.Sistem melakukan validasi jika data sudah ada.<br>
 
 **2.2.6   Kepala Laboratorium Mencetak Laporan**
@@ -230,9 +216,7 @@ Diagram:
 Deskripsi singkat Kepala Laboratorium mencetak laporan
 Deskripsi langkah-langkah:
 1.Kepala Lab masuk ke halaman laporan laboratorium<br>
-
 2.Sistem menampilkan halaman laporan laboratorium dan menampilkan hasil laporan<br>
-
 3.Kepala Laboratorium mencetak laporan<br>
 
 **2.2.7 KKepala Laboratorium Mengelola LogBook**
@@ -245,11 +229,8 @@ Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke f
 Deskripsi Langkah-langkah:
 <br>
 1. Sistem menampilkan laporan maintenance lab.<br>
-
 2. Kepala teknisi memilih combobox tersebut dan klik tombol cetak.<br>
-
 3. Sistem akan menampilkan hasil laporan.<br>
-
 4. Kepala Teknisi mencetak laporan.<br>
 
 Xref: Bagian 3.2.7, Cetak Laporan
@@ -265,9 +246,7 @@ Deskripsi singkat Dosen AIL mengelola logbook
 Deskripsi langkah-langkah:
 
 1.Admin masuk ke halaman admin <br>
-
 2.Sistem menampilkan halaman admin<br>
-
 3.Admin mengisi logbook dan melihat data logbook<br>
 
 **2.2.9 siswa mengisi logbook**
@@ -279,11 +258,8 @@ Diagram :
 Deskripsi singkat mahasiswa mengisi logbook
 Deskripsi langkah-langkah:
 1.siswa masuk ke halaman user<br>
-
 2.Sistem menampilkan halaman user<br>
-
 3.siswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook.<br>
-
 4.Sistem akan menyimpan data logbook yang telah di isi.<br>
 
 2.3   Spesifikasi Kebutuhan non-fungsional
@@ -445,7 +421,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada Sistem Aplikasi Maintenance Lab Komputer terdapat struktur Database yang dijelaskan menggunakan ERD.
+Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 
 ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/erd%203.png?raw=true)
 
