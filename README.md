@@ -137,104 +137,102 @@ Tidak ada
 ----------
 ![](![image](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/e2a24a34a755a0494cd8d703905ad830a9e3cff7/UseCaseDiagram2.jpg)
 
-**2.2.1 Teknisi Login**
+**2.2.1 Kepala Laboratorium Login**
 
 Use Case: Login <br>
 Diagram : 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/e9f3dc86e44e5200cd6808327bf92e87cd3f243c/Screenshot%202023-12-04%20141536.png)
 
-Deskripsi Singkat Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. <br>
-Deskripsi langkah-langkah :
-<br>
-1. Teknisi melakukan login dengan username dan password<br>
-2. Sistem melakukan validasi login<br>
-3. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
-4. Bila gagal sistem akan menampilkan peringatan<br>
-Xref: Bagian 3.2.1, Login Teknisi<br>
+Deskripsi singkat Kepala Laboratorium melakukan login sebelum masuk ke tampilan home.
+Deskripsi Langkah-Langkah:
 
-**2.2.2 Teknisi Menginput Data Maintenance Lab**
+1. Kepala Laboratorium melakukan login
 
-Use Case: Input Data Maintenance Lab<br>
+2. Sistem melakukan validasi
+
+3. Bila validasi berhasil akan mengarahkan ke halaman beranda
+
+4. Bila gagal sistem akan menampilkan peringatan
+
+**2.2.2 Admin melakukan Login**
+
+Use Case: login<br>
 Diagram: 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/f9cd138f17b34bf10c2b83aa7e06faa38e14089d/Screenshot%202023-12-04%20141547.png)
 
-Deskripsi Singkat Teknisi melakukan input data maintenance lab dan sistem menyimpan data pada database. <br>
-Deskripsi Langkah-langkah:
-<br>
-1.Teknisi melakukan input data Software dan Hardware. <br>
-2.Teknisi mengklik tombol simpan.<br>
-3.Sistem menyimpan data maintenance lab.<br>
-4.Bila data sudah ada sistem akan menampilkan peringatan.<br>
-Xref: Bagian 3.2.2, Input Data Maintenance Lab
+Deskripsi singkat Admin melakukan login sebelum masuk ke tampilan home.
+Deskripsi Langkah-Langkah:
 
-**2.2.3 Teknisi Mengelola Data Maintenance Lab**
+1. Admin melakukan login
 
-Use case : Mengelola Data Maintenance Lab<br>
+2. Sistem melakukan validasi
+
+3. Bila validasi berhasil akan mengarahkan ke halaman beranda
+
+4. Bila gagal sistem akan menampilkan peringatan
+
+**2.2.3 siswa melakukan Login**
+
+Use case : login<br>
 Diagram : 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/f9cd138f17b34bf10c2b83aa7e06faa38e14089d/Screenshot%202023-12-04%20141521.png)
 
-Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
-Deskripsi Langkah-langkah :
-<br>
-1.Teknisi mengklik Data Software ataupun Hardware, lalu memilih bagian yang akan di edit <br>
-2.Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
-3.Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
-Xref: Bagian 3.2.3, Teknisi Mengelola Data maintenance lab<br>
+Deskripsi singkat siswa melakukan login sebelum masuk ke tampilan home.
+Deskripsi Langkah-Langkah:
+
+1. Mahasiswa melakukan login
+
+2. Sistem melakukan validasi
+
+3. Bila validasi berhasil akan mengarahkan ke halaman beranda
+
+4. Bila gagal sistem akan menampilkan peringatan
 
 
-**2.2.4 Kepala Teknisi Login**
+**2.2.4 Kepala Laboratorium Mengelola User**
 
-Use Case: Login<br>
+Use Case: Mengelola User<br>
 
 Diagram :
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U4.png?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143125.png)
 
-Deskripsi Singkat Kepala Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. <br>
-Deskripsi langkah-langkah :
-<br>
-1. Kepala Teknisi melakukan login dengan username dan password<br>
-2. Sistem melakukan validasi login<br>
-3. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
-4. Bila gagal sistem akan menampilkan peringatan<br>
-Xref: Bagian 3.2.4, Login Kepala Teknisi<br>
+Deskripsi singkat Kepala Lab mengelola user.
+Deskripsi langkah-langkah:
+1.Kepala Lab mengklik manajemen user,lalu kepala lab bisa melihat user,menghapus user,menambah user dan mengedit user
+2.Sistem akan menyimpan data user dan akan menampilkan data user yang dipilih
+3.Kepala Lab bisa menghapus hak akses user
 
       
-**2.2.5  Kepala Teknisi Mengelola Data Maintenance Lab**
+**2.2.5  Kepala Laboratorium Mengelola Dashboard**
 
-Use Case: Mengelola Data Maintenance lab<br>
+Use Case: Dashboard<br>
 Diagram:
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U5.png?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143237.png)
       
-Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware kepala teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
-Deskripsi Langkah-langkah :
-<br>
-1. Kepala Teknisi mengklik Data Software maupun Hardware, lalu memilih bagian yang akan di edit.<br>
-2. Sistem akan menyimpan perubahan ke database dan menampilkan data yang telah diubah.<br>
-3. Kepala Teknisi bisa menghapus data yang salah atau tidak diperlukan lagi.<br>
-Xref: Bagian 3.2.5, Kepala Teknisi Mengelola Data maintenance lab<br>
+Deskripsi singkat Kepala Laboratorium mengelola Dashboard.
+Deskripsi langkah-langkah:
+1.Kepala lab masuk ke halaman dashboard SuperAdmin
+2.Sistem menampilkan halaman dashboard SuperAdmin
+3.Kepala lab dapat Melihat data dan dapat menambah,mengedit atau menghapus data.
+4.Sistem melakukan validasi jika data sudah ada.
 
-**2.2.6   Kepala Teknisi Melihat Data Maintenance Lab**
+**2.2.6   Kepala Laboratorium Mencetak Laporan**
 
-
-Use Case: View Data Maintenance lab<br>
+Use Case: laporan<br>
 Diagram:
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U6.png?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143424.png)
 
-Deskripsi Singkat Kepala Teknisi dapat melihat data maintenance lab setelah di inputkan. <br>
-Deskripsi Langkah-langkah :
-<br>
-1. Sistem akan menampilkan data maintenance lab.<br>
-2. Kepala teknisi melihat data dan dapat mengedit atau menghapusnya.<br>
-3. Sistem menampilkan edit data maintenance lab.<br>
-4. Kepala Teknisi mengedit data maintenance lab yang baru atau yang sudah ada.<br>
-5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan.<br>
-Xref: Bagian 3.2.6, View data maintenance lab<br>
-  
-**2.2.7 Kepala Teknisi Mencetak laporan**
+Deskripsi singkat Kepala Laboratorium mencetak laporan
+Deskripsi langkah-langkah:
+1.Kepala Lab masuk ke halaman laporan laboratorium
+2.Sistem menampilkan halaman laporan laboratorium dan menampilkan hasil laporan
+3.Kepala Laboratorium mencetak laporan
 
-Use Case:  laporan<br>
+**2.2.7 KKepala Laboratorium Mengelola LogBook**
+
+Use Case: Mengelola logbook<br>
 Diagram:
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U7.png?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143554.png)
 
 Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke fungsi laporan. <br>
 Deskripsi Langkah-langkah:
@@ -246,37 +244,30 @@ Deskripsi Langkah-langkah:
 Xref: Bagian 3.2.7, Cetak Laporan
 <br>
 
-**2.2.8 Siswa Login**
+**2.2.8 Admin mengelola logbook**
 
-Use Case: Login <br>
+Use Case: Mengelola LogBook <br>
 Diagram : 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/siswalogin.jpg?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143659.png)
 
-Deskripsi Singkat Siswa melakukan login terlebih dahulu sebelum masuk ke tampilan home, siswa login menggunakan username dan password yang diberikan oleh admin. <br>
-Deskripsi langkah-langkah :
-<br>
-1. Siswa melakukan login dengan username dan password<br>
-2. Sistem melakukan validasi login<br>
-3. Bila sukses sistem akan mengarahkan ke halaman beranda<br>
-4. Bila gagal sistem akan menampilkan peringatan<br>
-Xref: Bagian 3.2.8, Login siswa<br>
+Deskripsi singkat Dosen AIL mengelola logbook
+Deskripsi langkah-langkah:
+1.Admin masuk ke halaman admin
+2.Sistem menampilkan halaman admin
+3.Admin mengisi logbook dan melihat data logbook
 
-**2.2.9 Siswa Mengisi Form Pengaduan**
+**2.2.9 siswa mengisi logbook**
 
-Use Case: Mengisi Form Pengaduan <br>
+Use Case: Mengisi LogBook <br>
 Diagram : 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/siswaisiform.jpg?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143727.png)
 
-Deskripsi Singkat Siswa mengisi form pengaduan dengan isi beberapa data diri baru dapat melanjutkan untuk mengisi pengaduan. <br>
-Deskripsi langkah-langkah :
-<br>
-1. Siswa mnegisi data-data diri terlebih dahulu. <br>
-2. Setelah semua data terisi, maka siswa dapat melanjutkan ke halaman berikutnya. <br>
-3. Setelah itu, sistem akan mengarahkan ke halaman selanjutnya yang siswa dapat mengisi pengaduan. <br>
-4. Setelah diisi form pengaduan maka tekan tombol simpan<br>
-5. Setelah berhasil di simpan, sistem akan mengarahkan ke halaman dashboard. <br>
-Xref: Bagian 3.2.9, Siswa mengisi Form Pengaduan <br>
-
+Deskripsi singkat mahasiswa mengisi logbook
+Deskripsi langkah-langkah:
+1.siswa masuk ke halaman user
+2.Sistem menampilkan halaman user
+3.siswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook.
+4.Sistem akan menyimpan data logbook yang telah di isi.
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -285,11 +276,11 @@ Xref: Bagian 3.2.9, Siswa mengisi Form Pengaduan <br>
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platofrm OS ( Teknisi dan Kepala Teknisi )
+   | 2 | Perangkat Lunak dapat dipakai di semua platform OS ( Admin,Kepala Laboratorium dan siswa)
  
 2.4   Karakteristik pengguna
 ----------
-Perangkat lunak ini memungkinkan pengguna berinteraksi dengan sistem secara langsung tanpa membutuhkan level autentikasi atau hak akses. 
+Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi. 
 
 2.5   Batasan-batasan
 ----------
@@ -308,135 +299,130 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara untuk mengakses aplikasi ini adalah dengan menggunakan akses yang diberikan oleh admin, login melalui aplikasi ini dengan memasukkan username dan password yang diberikan, kemudian sistem akan mencocokkan nama pengguna. Setelah berhasil login, teknisi dapat menginput dan mengelola data maintenance lab komputer
+Salah satu cara mengakases aplikasi ini yaitu dengan hak akses yang di berikan oleh Kepala Laboratorium, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username Kepala Laboratorium dan Laboratorium. Setelah login berhasil Kepala Laboratorium dapat melihat kegiatan yang dilakukan di laboratorium dan dapat mencetak laporan perminggu dan perbulan.
 
       
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Teknisi Login**
+**3.2.1Kepala Laboratorium Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Teknisi |
-| Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer
+| Xref | Bagian 2.2.1, Login Kepala Lab |
+| Trigger | Membuka aplikasi Sistem Pengisian LogBook  Lab |
 | Precondition | Halaman Login|
-| Basic Path | 1. Teknisi mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Kepala Laboratorium mengisi form login dengan username dan password <br> 2. Kepala Laboratorium mengklik tombol login<br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Kepala Teknisi dan Teknisi dapat login dan mengakses aplikasi Sistem Informasi Maintenance Lab Komputer |
+| Post Condition | Kepala Laboratorium dapat login dan mengakses aplikasi MSistem Pengisian LogBook |
 | Exception Push | Username dan password salah |
 
 <br>
 
-**3.2.2 Teknisi Menginput Data Maintenance Lab Komputer**
+**3.2.2 Admin Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Menginput data |
-| Xref | Bagian 2.2.2, Teknisi menginputkan data Maintenance Lab Komputer |
-| Trigger | Membuka halaman Input Data |
-| Precondition | Halaman input data |
-| Basic Path | 1.Setelah login, teknisi membuka halaman lab komputer <br> 2.Teknisi menginputkan data Software dan Hardware sesuai dengan lab dan komputer  <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
+| Xref | Bagian 2.2.2 Login admin |
+| Trigger | Membuka aplikasi Sistem Pengisian LogBook    Lab |
+| Precondition | Halaman login Admin |
+| Basic Path | 1., Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login  <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Teknisi dapat menginputkan dan menyimpan inputan data |
-| Exception Push | Tidak ada |
-
-<br>
-
-**3.2.3 Teknisi Mengelola data maintenance lab**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Mengelola data maintenance lab  |
-| Xref | Bagian 2.2.3, Teknisi mengelola data maintenance lab |
-| Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer |
-| Precondition | Halaman Utama Teknisi |
-| Basic Path | 1. Setelah login <br> 2. teknisi membuka halaman maintenance Lab komputer <br> 3. Teknisi mengelola data maintenance lab <br> 4. Setelah itu teknisi mengirim pengelohan data kepada kepala teknisi |
-| Alternative | Tidak ada |
-| Post Condition | Teknisi dapat menginputkan dan menyimpan inputan data |
-| Exception Push | Tidak ada  |
-
-<br>
-   
-**3.2.4 Kepala Teknisi Login**
-|  |  |
-|--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.4, Login Kepala Teknisi |
-| Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer
-| Precondition | Halaman Login|
-| Basic Path | 1. Teknisi mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
-| Alternative | Tidak ada |
-| Post Condition | Teknisi dapat login dan mengakses aplikasi Sistem Informasi Maintenance Lab Komputer |
+| Post Condition | Admin berhasil login dan mengakses Sistem Pengisian LogBook |
 | Exception Push | Username dan password salah |
 
 <br>
 
-**3.2.5 Kepala Teknisi Mengelola data maintenance lab**
+**3.2.3 Mahasiswa login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola data maintenance lab |
-| Xref | Bagian 2.2.5, Kepala Teknisi mengelola data maintenance lab |
+| Nama Fungsi | login|
+| Xref | Membuka aplikasi Sistem Pengisian LogBook Lab |
 | Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer |
-| Precondition | Halaman Utama Teknisi |
-| Basic Path | 1. Setelah login, kepala teknisi, membuka halaman Maintenance Lab komputer <br> 2. Setelah itu kepala teknisi melihat data yang sudah di olah dari teknisi bakal diolah lebih detail lagi <br> 3. Kepala teknisi mengirim data-data yang terjadi di Maintenance Lab Komputer|
+| Precondition | Halaman login |
+| Basic Path | 1. Mahasiswa mengisi form login dengan username dan password<br> 2. Mahasiswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5.  |Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Teknisi dapat menginputkan dan menyimpan inputan data  |
-| Exception Push | Tidak ada |
-   
-**3.2.6 Kepala Teknisi Melihat Data Maintenance Lab Komputer**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Melihat Data Maintenance Lab Komputer |
-| Xref | Bagian 2.2.6, Kepala Teknisi Melihat data Maintenance Lab Komputer |
-| Trigger | Membuka halaman hasil laporan maintenance lab dari teknisi |
-| Precondition | Halaman hasil laporan maintenance lab |
-| Basic Path | 1. Setelah login kepala teknisi membuka halaman data dari maintenance  <br> 2. Sistem akan menampilkan hasil laporan |
-| Alternative | Tidak ada |
-| Post Condition |Teknisi dapat menginputkan dan menyimpan inputan data Tidak ada |
-| Exception Push | Tidak ada |
-   
-**3.2.7 Kepala Teknisi Mencetak Laporan**
-|  |  |
-|--|--|
-| Nama Fungsi |Mencetak Laporan|
-| Xref | Bagian 2.2.7 Kepala Teknisi mencetak laporan data Maintenance Lab Komputer  |
-| Trigger | Membuka halaman hasil laporan dari teknisi |
-| Precondition | Halaman hasil laporan maintenance lab |
-| Basic Path | 1. Setelah login Kepala Teknisi membuka halaman laporan dari maintenance  <br> 2. Kepala teknisi melihat halaman laporan  <br> 3. Setelah itu kepala teknisi mencetak laporan dari maintenance  |
-| Alternative | Tidak ada  |
-| Post Condition | Tidak ada|
-| Exception Push | Tidak ada |
-
-
-**3.2.8.Siswa Login**
-|  |  |
-|--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.8, Login Siswa|
-| Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer
-| Precondition | Halaman Login|
-| Basic Path | 1.Siswa mengisi form login dengan username dan password <br> 2. Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
-| Alternative | Tidak ada |
-| Post Condition | Teknisi dapat login dan mengakses aplikasi Sistem Informasi Maintenance Lab Komputer |
+| Post Condition | siswa dapat login dan mengakses aplikasi Sistem Pengisian LogBook|
 | Exception Push | Username dan password salah |
 
-
-**3.2.9.Siswa Mengisi Form Pengaduan**
+<br>
+   
+**3.2.4 Kepala Laboratorium Mengelola User**
 |  |  |
 |--|--|
-| Nama Fungsi | Pengaduan |
-| Xref | Bagian 2.2.9 Siswa Mengisi Form Pengaduan |
-| Trigger | terdapat kerusakan dalam bagian komputer |
-| Precondition | Halaman Login |
-| Basic Path |  1.Setelah login, siswa membuka halaman lab komputer <br> 2 siswa mengajukan pengaduan kerusakan yang ada di Maintenance Lab komputer <br> 3. Menyimpan data yang telah diinputkan  <br> 4. Kembali ke halaman dashboard |
-| Alternative | Tidak ada  |
-| Post Condition | Pengaduan berhasil disimpan |
-| Exception Push | Tidak ada |
+| Nama Fungsi | MEngelola User|
+| Xref | Bagian 2.2.4, Mengelola User |
+| Trigger |Membuka aplikasi Sistem LogBook Lab |
+| Precondition | Halaman utama Kepala Laboratorium|
+| Basic Path | 1. Sistem menampilkan form.<br> 2. Kepala Laboratorium mengklik manajemen user, lalu kepala lab bisa melihat user, menghapus user,menambah user dan mengedit <br> 3. Sistem akan menyimpan data user ke database |
+| Post Condition |Halaman user |
+| Exception Push |Tidak ada koneksi, data user ke database |
+
+<br>
+
+**3.2.5 Kepala Laboratorium Mengelola Dashboard**
+
+|  |  |
+|--|--|
+| Nama Fungsi |Mengelola Dashboard |
+| Xref |Bagian 2.2.5, Mengelola Dashboard |
+| Trigger | Membuka Sistem Pengisian LogBook Lab |
+| Precondition | Halaman utama Kepala Laboratorium |
+| Basic Path | 1. istem menampilkan halaman dashboard SuperAdmin <br> 2. Kepala lab  dapat melihat data dan menambah, mengedit atau menghapus data <br> 3. Sistem melakukan validasi jika data sudah ada|
+| Post Condition | Halaman SuperAdmin |
+| Exception Push |Tidak ada koneksi, data belum diinput |
+   
+**3.2.6 Kepala Laboratorium Mencetak Laporan**
+
+|  |  |
+|--|--|
+| Nama Fungsi | laporan |
+| Xref | Bagian 2.2.6 Cetak Laporan |
+| Trigger |Membuka aplikasi Sistem Pengisian LogBook Lab |
+| Precondition | halaman utama Kepala Lab|
+| Basic Path | 1. Kepala Lab mengklik tombol laporan <br> 2. Sistem menampilkan halaman laporan Laboratorium dan menampilkan hasil Laporan <br> 3. Kepala Laboratorium mencetak laporan |
+| Alternative | Tidak ada |
+| Post Condition |Halaman Laporan|
+| Exception Push | Tidak ada koneksi, data belum diinput |
+   
+**3.2.7 Kepala Laboratorium Mengelola LogBook**
+|  |  |
+|--|--|
+| Nama Fungsi |laporan|
+| Xref | Bagian 2.2.7 Mengelola LogBook  |
+| Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab|
+| Precondition | halaman utama Kepala Lab|
+| Basic Path | 1. Sistem menampilkan halaman SuperAdmin  <br> 2.Kepala Laboratorium melihat data logbook |  
+| Post Condition | Halaman Laporan|
+| Exception Push | Tidak ada koneksi, data belum diinput |
+
+
+**3.2.8. Admin Mengelola LogBook**
+|  |  |
+|--|--|
+| Nama Fungsi | Laporan |
+| Xref | Bagian 2.2.8 Mengelola LogBook|
+| Trigger | Membuka aplikasi Sistem LogBook Lab |
+| Precondition | halaman utama  Admin|
+| Basic Path | 1.Sistem menampilkan halaman Admin <br> 2. Admin melihat data logbook |
+| Post Condition | Halaman Laporan |
+| Exception Push | Tidak ada koneksi, data belum diinput|
+
+
+**3.2.9.Mahasiswa Mengisi LogBook**
+|  |  |
+|--|--|
+| Nama Fungsi |laporan|
+| Xref | Bagian 2.2.9 Mengisi LogBook | 
+| Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
+| Precondition | halaman utama  user |
+| Basic Path |  1.Sistem menampilkan halaman user <br> 2 mahasiswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook<br> 3. Sistem akan menyimpan data logbook yang telah diisi |
+| Post Condition | Halaman Laporan |
+| Exception Push |Tidak ada koneksi, data belum diinput |
 
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
