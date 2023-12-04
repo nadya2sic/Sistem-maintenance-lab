@@ -135,9 +135,8 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](![image](https://github.com/nadya2sic/Sistem-maintenance-lab/assets/148849623/3a5f6729-ceac-450b-a930-3d607fdeea4c)
-)
-   
+![](![image](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/e2a24a34a755a0494cd8d703905ad830a9e3cff7/UseCaseDiagram2.jpg)
+
 **2.2.1 Teknisi Login**
 
 Use Case: Login <br>
