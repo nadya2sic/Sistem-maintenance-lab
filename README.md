@@ -10,13 +10,14 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) adalah dokumen yang merinci kebutuhan perangkat lunak yang akan dikembangkan. Dokumen ini akan menjadi panduan teknisi bagi pengembang perangkat lunak dalam tahap selanjutnya. Studi kasus yang dijelaskan dalam dokumen ini berkaitan dengan Otomatisasi Teknisi Laboratorium yang merupakan sistem yang dirancang untuk membantu teknisi melaporkan masalah, melacak lokasi komputer, dan mengupdate perangkat.Kami membuat produk inovatif yang memungkinkan untuk mempermudah pekerjaan user dengan mendapatkan informasi melalui sistem.
+Dokumen Software Requirement Spesification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengisian LogBook".Dokumen ini dibangun untuk memudahkan mahasiswa dalam mengisi logbook dan juga memudahkan kepala lab dan admin untuk melihat kondisi lab.
 
 
 1.2   Lingkup
 ----------
-Pelaporan Masalah Sistem akan memungkinkan teknisi melaporkan masalah yang terjadi di laboratorium dengan mudah dan Pembaruan Software/ Hardware Sistem akan memungkinkan teknisi mengelola dan melaksanakan pembaruan perangkat lunak dan perangkat keras secara efisien. Hal ini dapat membantu memantau ketersediaan perangkat, memastikan bahwa mereka berfungsi dengan baik, dan menemukan komputer yang memerlukan perbaikan atau pembaruan.
+Sistem Pengisian LogBook merupakan Sistem yang kami bangun untuk mempermudah kepala laboratorium dalam melihat kondisi laboratorium,memudahkan admin dalam melihat data-data nya dan juga memudahkan mahasiswa dalam mengisi logbook.
 
+1.3 Akronim, singkatan, definisi
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -41,22 +42,30 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi dibidang software, dalam studi kasus ini kami menganalisa kebutuhan suatu sekolah di daerah Pekanbaru ini, kasus yang kami peroleh yaitu Sistem Maintenance Lab Komputer, kami merancang sistem sesuai dengan kebutuhan SMKN 1 Pekanbaru  dengan menerapkan sistem informasi, sehingga memudahkan Teknisi dalam menginputkan permasalahan di laboratorium, Kepala Teknisi dapat melihat data yang sudah diinputkan, Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat Pemeriksaan Software/ Hardware Perangkat Sistem melacak lokasi komputer, Siswa bisa melaporkan masalah yang terjadi di laboraturium , dan mengupdate perangkat. Berikut akan kami jelaskan sistem software kami, admin fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek II ini kami menganalisis kebutuhan sekola dalam pengisian logbook kegiatan di Laboratorium. kasus yang kami peroleh yaitu Sistem Pengisian Logbook sekolah. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan Kepala Laboratorium dan admin dengan menerapkan Sistem Pengisian Logbook Kampus. Sehingga memudahkan Mahasiswa mengisi logbook dan Memudahkan pemantauan kegiatan yang dilakukan di Laboratorium. Software yang kami buat ini berbasis website dimana website sebagai admin Super Admin sebagai Kepala Laboratorium. Sistem yang kami buat di dalamnya terdapat logbook, laporan(untuk Kepala Laboratorium). Berikut akan kami jelaskan sistem software kami, siswa fungsi utama yaitu :
+* Input Nama
+* Input Kelas
+* Input Guru
+* Input Matkul
+* Input Kondisi Peralatan Lab
 
-  - Input Data maintenance Lab
-  - Kelola data Maintenance Lab
-  - Laporan
+Berikut ini fungsi Admin:
 
-    Berikut ini fungsi Kepala Teknisi dalam bentuk grafik :
-- Kelola data maintenance lab
-- View laporan
-  	
+* View Data Logbook
+* Input Laporan Kerusakan
+
+Berikut ini fungsi Super Admin:
+
+* Input Data Lab
+* Input Data User
+* Edit Data Lab
+* Delete Data Lab
+* View Data Lab
+* Cetak Laporan
 
 2.1   Perspektif produk
 ----------
-Maintenance Lab Komputer adalah sebuah sistem maintenance lab terdapat 3 jenis user yaitu Kepala Teknisi, Teknisi dan Siswa.
-
-Pada Sistem Maintenance Lab Komputer ini akan menghasilkan laporan data yang sudah di inputkan oleh teknisi.
+Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pada website.Terdapat 3 jenis yaitu Kepala Laboratorium sebagai SuperAdmin, Admin dan Mahasiswa sebagai User.Pengelolaan data dikelola oleh Kepala Laboratorium pada website,Admin hanya bisa mengisi dan melihat data-data logbook dan siswa hanya bisa mengisi logbook.
 
 **2.1.1 Antarmuka sistem**
 
@@ -84,10 +93,9 @@ Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi 
 
 ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/antar%20perangkat%20keras.jpg?raw=true)
 
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Maintenance Lab Komputer antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem LogBook Laboratorium antara lain :
 
-1. PC / Laptop
-Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
+PC / Laptop untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows,Linux, atau MAC dan sudah terinstall browser.
 
 **2.1.4 Antarmuka perangkat lunak**
 
@@ -95,9 +103,13 @@ Tidak ada
 
 **2.1.5 Antarmuka Komunikasi**
 
-Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Maintenance Lab Komputer antara lain :
-1. Kabel Lan 
-2. Wifi
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Logbook SMK 1 PEKANBARU antara lain :
+
+1.  Kabel Lan UTP RJ45 
+
+2. Modem 
+
+3. Wifi
 
 
 **2.1.6 Batasan memori**
@@ -109,13 +121,13 @@ Tidak ada
 | Operasi | Fungsi |
 | ------ | ------ |
 | Login | Digunakan untuk mengakses aplikasi |
-| Input Data | Digunakan untuk memasukkan data-data |
+| Input Data | Digunakan untuk memasukkan data-data logbook |
 | Kembali | Digunakan untuk kembali ke halaman sebelumnya |
+| hapus | Digunakan untuk menghapus data |
 | Edit | Digunakan untuk mengubah data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
 | Cetak | Digunakan untuk mencetak laporan |
-| Deskripsi| Digunakan untuk menambah keterangan |
 
 **2.1.8 Kebutuhan adaptasi**
 
@@ -123,7 +135,8 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/spesifikasi%202.jpg?raw=true)
+![](![image](https://github.com/nadya2sic/Sistem-maintenance-lab/assets/148849623/3a5f6729-ceac-450b-a930-3d607fdeea4c)
+)
    
 **2.2.1 Teknisi Login**
 
