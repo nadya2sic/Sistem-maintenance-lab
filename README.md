@@ -65,13 +65,7 @@ Berikut ini fungsi Super Admin:
 
 2.1   Perspektif produk
 ----------
-Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pada website.Terdapat 3 jenis yaitu Kepala Laboratorium sebagai SuperAdmin, Admin dan Mahasiswa sebagai User.Pengelolaan data dikelola oleh Kepala Laboratorium pada website,Admin hanya bisa mengisi dan melihat data-data logbook dan siswa hanya bisa mengisi logbook.
-
-**2.1.1 Antarmuka sistem**
-
-![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/use%20case%202.png?raw=true)
-
-Sistem aplikasi Maintenance Labor Komputer memiliki 2 user yaitu Kepala Teknisi dan Teknisi. Kepala Teknisi mempunyai fungsi yaitu melakukan view Data Maintanance Lab, serta bisa melakukan Login ke sistem. Teknisi bertugas untuk menginput dan mengelola data, supaya data bisa di akses oleh Kepala Teknisi.
+Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pada website.Terdapat 3 jenis yaitu Kepala Laboratorium sebagai SuperAdmin, Admin dan siswa sebagai User.Pengelolaan data dikelola oleh Kepala Laboratorium pada website,Admin hanya bisa mengisi dan melihat data-data logbook dan siswa hanya bisa mengisi logbook.
 
 
 **2.1.2 Antarmuka pengguna**
