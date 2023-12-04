@@ -156,7 +156,7 @@ Xref: Bagian 3.2.1, Login Teknisi<br>
 
 Use Case: Input Data Maintenance Lab<br>
 Diagram: 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U2.png?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/f9cd138f17b34bf10c2b83aa7e06faa38e14089d/Screenshot%202023-12-04%20141547.png)
 
 Deskripsi Singkat Teknisi melakukan input data maintenance lab dan sistem menyimpan data pada database. <br>
 Deskripsi Langkah-langkah:
@@ -171,7 +171,7 @@ Xref: Bagian 3.2.2, Input Data Maintenance Lab
 
 Use case : Mengelola Data Maintenance Lab<br>
 Diagram : 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/U3.png?raw=true)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/f9cd138f17b34bf10c2b83aa7e06faa38e14089d/Screenshot%202023-12-04%20141521.png)
 
 Deskripsi Singkat Sistem akan menampilkan form data Software dan Hardware teknisi dapat melakukan edit dan hapus sesuai kebutuhan. <br>
 Deskripsi Langkah-langkah :
