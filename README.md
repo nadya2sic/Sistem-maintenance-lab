@@ -141,7 +141,7 @@ Tidak ada
 
 Use Case: Login <br>
 Diagram : 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/67840b1b50666fd3d33b5b7ebd8f12c8c6ef53ae/UseCaseDiagram3.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/e9f3dc86e44e5200cd6808327bf92e87cd3f243c/Screenshot%202023-12-04%20141536.png)
 
 Deskripsi Singkat Teknisi melakukan login terlebih dahulu sebelum masuk ke tampilan home, Teknisi login menggunakan username dan password yang diberikan oleh admin. <br>
 Deskripsi langkah-langkah :
