@@ -169,7 +169,7 @@ Deskripsi Langkah-Langkah:
 
 Use case : login<br>
 Diagram : 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/f9cd138f17b34bf10c2b83aa7e06faa38e14089d/Screenshot%202023-12-04%20141521.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/b207b8453fb0a669f2b75f4211b5e18be5d4f0d5/Screenshot%202023-12-04%20152841.png)
 
 Deskripsi singkat siswa melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
