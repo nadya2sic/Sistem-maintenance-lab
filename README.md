@@ -329,7 +329,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 <br>
 
-**3.2.3 Mahasiswa login**
+**3.2.3 siswa login**
 
 |  |  |
 |--|--|
