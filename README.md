@@ -198,9 +198,11 @@ Diagram :
 
 Deskripsi singkat Kepala Lab mengelola user.
 Deskripsi langkah-langkah:
-1.Kepala Lab mengklik manajemen user,lalu kepala lab bisa melihat user,menghapus user,menambah user dan mengedit user
-2.Sistem akan menyimpan data user dan akan menampilkan data user yang dipilih
-3.Kepala Lab bisa menghapus hak akses user
+1.Kepala Lab mengklik manajemen user,lalu kepala lab bisa melihat user,menghapus user,menambah user dan mengedit user <br>
+
+2.Sistem akan menyimpan data user dan akan menampilkan data user yang dipilih <br>
+
+3.Kepala Lab bisa menghapus hak akses user<br>
 
       
 **2.2.5  Kepala Laboratorium Mengelola Dashboard**
@@ -211,10 +213,13 @@ Diagram:
       
 Deskripsi singkat Kepala Laboratorium mengelola Dashboard.
 Deskripsi langkah-langkah:
-1.Kepala lab masuk ke halaman dashboard SuperAdmin
-2.Sistem menampilkan halaman dashboard SuperAdmin
-3.Kepala lab dapat Melihat data dan dapat menambah,mengedit atau menghapus data.
-4.Sistem melakukan validasi jika data sudah ada.
+1.Kepala lab masuk ke halaman dashboard SuperAdmin  <br>
+
+2.Sistem menampilkan halaman dashboard SuperAdmin <br>
+
+3.Kepala lab dapat Melihat data dan dapat menambah,mengedit atau menghapus data.<br>
+
+4.Sistem melakukan validasi jika data sudah ada.<br>
 
 **2.2.6   Kepala Laboratorium Mencetak Laporan**
 
@@ -224,9 +229,11 @@ Diagram:
 
 Deskripsi singkat Kepala Laboratorium mencetak laporan
 Deskripsi langkah-langkah:
-1.Kepala Lab masuk ke halaman laporan laboratorium
-2.Sistem menampilkan halaman laporan laboratorium dan menampilkan hasil laporan
-3.Kepala Laboratorium mencetak laporan
+1.Kepala Lab masuk ke halaman laporan laboratorium<br>
+
+2.Sistem menampilkan halaman laporan laboratorium dan menampilkan hasil laporan<br>
+
+3.Kepala Laboratorium mencetak laporan<br>
 
 **2.2.7 KKepala Laboratorium Mengelola LogBook**
 
@@ -238,9 +245,13 @@ Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke f
 Deskripsi Langkah-langkah:
 <br>
 1. Sistem menampilkan laporan maintenance lab.<br>
+
 2. Kepala teknisi memilih combobox tersebut dan klik tombol cetak.<br>
+
 3. Sistem akan menampilkan hasil laporan.<br>
+
 4. Kepala Teknisi mencetak laporan.<br>
+
 Xref: Bagian 3.2.7, Cetak Laporan
 <br>
 
@@ -252,9 +263,12 @@ Diagram :
 
 Deskripsi singkat Dosen AIL mengelola logbook
 Deskripsi langkah-langkah:
-1.Admin masuk ke halaman admin
-2.Sistem menampilkan halaman admin
-3.Admin mengisi logbook dan melihat data logbook
+
+1.Admin masuk ke halaman admin <br>
+
+2.Sistem menampilkan halaman admin<br>
+
+3.Admin mengisi logbook dan melihat data logbook<br>
 
 **2.2.9 siswa mengisi logbook**
 
@@ -264,10 +278,13 @@ Diagram :
 
 Deskripsi singkat mahasiswa mengisi logbook
 Deskripsi langkah-langkah:
-1.siswa masuk ke halaman user
-2.Sistem menampilkan halaman user
-3.siswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook.
-4.Sistem akan menyimpan data logbook yang telah di isi.
+1.siswa masuk ke halaman user<br>
+
+2.Sistem menampilkan halaman user<br>
+
+3.siswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook.<br>
+
+4.Sistem akan menyimpan data logbook yang telah di isi.<br>
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
