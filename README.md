@@ -125,7 +125,7 @@ Tidak ada
 Tidak ada
    
 **2.2 Spesifikasi Kebutuhan Fungsional**
-(![image](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/2.2.png?raw=true)
+![image](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/2.2.png?raw=true)
 **2.2.1 Kepala Laboratorium Login**
 
 Use Case: Login <br>
