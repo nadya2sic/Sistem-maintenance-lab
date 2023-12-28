@@ -310,7 +310,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.2 Login guru |
 | Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
 | Precondition | Halaman login Guru |
-| Basic Path | 1., Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login  <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br> 4. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login  <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Guru berhasil login dan mengakses Sistem Pengisian LogBook |
 | Exception Push | Username dan password salah |
@@ -325,7 +325,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.3 Siswa Login |
 | Trigger | Membuka Aplikasi Sistem LogBook Laboratorium |
 | Precondition | Halaman login |
-| Basic Path | 1. Siswa mengisi form login dengan username dan password masing-masing<br> 2. Mahasiswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5.  |Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Siswa mengisi form login dengan username dan password masing-masing<br> 2. Siswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br>  |Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | siswa dapat login dan mengakses aplikasi Sistem Pengisian LogBook|
 | Exception Push | Username dan password salah |
@@ -389,7 +389,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.8 Mengelola LogBook|
 | Trigger | Membuka aplikasi Sistem LogBook Lab |
 | Precondition | halaman utama Guru|
-| Basic Path | 1.Sistem menampilkan halaman Guru <br> 2. Guru melihat data logbook |
+| Basic Path | 1. Sistem menampilkan halaman Guru <br> 2. Guru melihat data logbook |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput|
 
@@ -401,7 +401,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.9 Mengisi LogBook | 
 | Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
 | Precondition | Halaman utama user |
-| Basic Path |  1.Sistem menampilkan halaman user <br> 2 mahasiswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook<br> 3. Sistem akan menyimpan data logbook yang telah diisi<br> 4.Siswa mengisi form pengaduan jika ada kerusakan yang dialami<br> |
+| Basic Path |  1. Sistem menampilkan halaman user <br> 2. Siswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook<br> 3. Sistem akan menyimpan data logbook yang telah diisi<br> 4. Siswa mengisi form pengaduan jika ada kerusakan yang dialami<br> |
 | Post Condition | Halaman Laporan |
 | Exception Push |Tidak ada koneksi, data belum diinput |
 
