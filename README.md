@@ -83,7 +83,7 @@ Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pad
 
  **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/AntarMukaHardware.png?raw=true).
+![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/AntarMukaHardware.png?raw=true)
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem LogBook Laboratorium antara lain :
 
 PC / Laptop untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows,Linux, atau MAC dan sudah terinstall browser.
