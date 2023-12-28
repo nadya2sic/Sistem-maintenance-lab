@@ -1,7 +1,7 @@
 <html>
 <body>
 <p align="center">
-  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="1000"/ > 
+  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="1500"/ > 
 <p align="center"><b>
 </body>
 </html>
@@ -85,8 +85,7 @@ Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pad
 
  **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/antar%20perangkat%20keras.jpg?raw=true)
-
+![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/AntarMukaHardware.png?raw=true).
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem LogBook Laboratorium antara lain :
 
 PC / Laptop untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows,Linux, atau MAC dan sudah terinstall browser.
