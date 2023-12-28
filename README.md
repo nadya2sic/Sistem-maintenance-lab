@@ -1,7 +1,7 @@
 <html>
 <body>
 <p align="center">
-  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="1500"/ > 
+  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="1200"/ > 
 <p align="center"><b>
 </body>
 </html>
@@ -16,8 +16,6 @@ Dokumen Software Requirement Spesification (SRS) merupakan dokumen spesifikasi p
 1.2   Lingkup
 ----------
 Sistem Pengisian LogBook merupakan Sistem yang kami bangun untuk mempermudah kepala laboratorium dalam melihat kondisi laboratorium, memudahkan admin dalam melihat data-data nya dan juga memudahkan siswa dalam mengisi logbook.
-
-1.3 Akronim, singkatan, definisi
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -42,7 +40,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering. Dimana software engineering dapat digunakan dalam kehidupan sehari - hari. Dalam studi kasus ini kami menganalisis kebutuhan sekolah SMKN 1 Pekanbaru dalam pengisian logbook kegiatan di Laboratorium. Kasus yang kami peroleh yaitu Sistem Pengisian Logbook sekolah. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan Kepala Laboratorium dan admin dengan menerapkan Sistem Pengisian Logbook Sekolah. Sehingga memudahkan siswa mengisi logbook dan Memudahkan pemantauan kegiatan yang dilakukan di Laboratorium. Software yang kami buat ini berbasis website, di dalamnya terdapat logbook yang dapat diisi oleh siswa dan guru yang mengajar serta laporan(untuk Kepala Laboratorium). Berikut akan kami jelaskan sistem software kami, siswa fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering. Dimana software engineering dapat digunakan dalam kehidupan sehari-hari. Dalam studi kasus ini kami menganalisis kebutuhan sekolah SMKN 1 Pekanbaru dalam pengisian logbook kegiatan di Laboratorium. Kasus yang kami peroleh yaitu Sistem Pengisian Logbook sekolah. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan Kepala Laboratorium dan admin dengan menerapkan Sistem Pengisian Logbook Sekolah. Sehingga memudahkan siswa mengisi logbook dan Memudahkan pemantauan kegiatan yang dilakukan di Laboratorium. Software yang kami buat ini berbasis website, di dalamnya terdapat logbook yang dapat diisi oleh siswa dan guru yang mengajar serta laporan(untuk Kepala Laboratorium). Berikut akan kami jelaskan sistem software kami, siswa fungsi utama yaitu :
 * Input Nama
 * Input Kelas
 * Input Guru
@@ -54,7 +52,7 @@ Berikut ini fungsi Guru:
 * View Data Logbook
 * Input Laporan Kerusakan
 
-Berikut ini fungsi Admin:
+Berikut ini fungsi Kepala Lab:
 
 * Input Data Lab
 * Input Data User
