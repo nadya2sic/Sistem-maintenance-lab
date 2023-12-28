@@ -1,7 +1,7 @@
 <html>
 <body>
 <p align="center">
-  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="900"/ > 
+  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="1000"/ > 
 <p align="center"><b>
 </body>
 </html>
