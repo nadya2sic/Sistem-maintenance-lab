@@ -306,30 +306,30 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 <br>
 
-**3.2.2 Admin Login**
+**3.2.2 Guru Login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Menginput data |
-| Xref | Bagian 2.2.2 Login admin |
-| Trigger | Membuka aplikasi Sistem Pengisian LogBook    Lab |
-| Precondition | Halaman login Admin |
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.2 Login guru |
+| Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
+| Precondition | Halaman login Guru |
 | Basic Path | 1., Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login  <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses Sistem Pengisian LogBook |
+| Post Condition | Guru berhasil login dan mengakses Sistem Pengisian LogBook |
 | Exception Push | Username dan password salah |
 
 <br>
 
-**3.2.3 siswa login**
+**3.2.3 Siswa login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | login|
-| Xref | Membuka aplikasi Sistem Pengisian LogBook Lab |
-| Trigger | Membuka Aplikasi Sistem Informasi Maintenance Lab Komputer |
+| Nama Fungsi | Login|
+| Xref | Bagian 2.2.3 Siswa Login |
+| Trigger | Membuka Aplikasi Sistem LogBook Laboratorium |
 | Precondition | Halaman login |
-| Basic Path | 1. Mahasiswa mengisi form login dengan username dan password<br> 2. Mahasiswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5.  |Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Siswa mengisi form login dengan username dan password masing-masing<br> 2. Mahasiswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5.  |Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | siswa dapat login dan mengakses aplikasi Sistem Pengisian LogBook|
 | Exception Push | Username dan password salah |
@@ -339,9 +339,9 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.2.4 Kepala Laboratorium Mengelola User**
 |  |  |
 |--|--|
-| Nama Fungsi | MEngelola User|
+| Nama Fungsi | Mengelola User|
 | Xref | Bagian 2.2.4, Mengelola User |
-| Trigger |Membuka aplikasi Sistem LogBook Lab |
+| Trigger |Membuka aplikasi Sistem LogBook Laboratorium |
 | Precondition | Halaman utama Kepala Laboratorium|
 | Basic Path | 1. Sistem menampilkan form.<br> 2. Kepala Laboratorium mengklik manajemen user, lalu kepala lab bisa melihat user, menghapus user,menambah user dan mengedit <br> 3. Sistem akan menyimpan data user ke database |
 | Post Condition |Halaman user |
@@ -355,10 +355,10 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi |Mengelola Dashboard |
 | Xref |Bagian 2.2.5, Mengelola Dashboard |
-| Trigger | Membuka Sistem Pengisian LogBook Lab |
+| Trigger | Membuka Sistem Pengisian LogBook Laboratorium |
 | Precondition | Halaman utama Kepala Laboratorium |
-| Basic Path | 1. istem menampilkan halaman dashboard SuperAdmin <br> 2. Kepala lab  dapat melihat data dan menambah, mengedit atau menghapus data <br> 3. Sistem melakukan validasi jika data sudah ada|
-| Post Condition | Halaman SuperAdmin |
+| Basic Path | 1. Sistem menampilkan halaman dashboard Admin <br> 2. Kepala laboratorium dapat melihat data dan menambah, mengedit atau menghapus data <br> 3. Sistem melakukan validasi jika data sudah ada|
+| Post Condition | Halaman Admin |
 | Exception Push |Tidak ada koneksi, data belum diinput |
    
 **3.2.6 Kepala Laboratorium Mencetak Laporan**
@@ -369,7 +369,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6 Cetak Laporan |
 | Trigger |Membuka aplikasi Sistem Pengisian LogBook Lab |
 | Precondition | halaman utama Kepala Lab|
-| Basic Path | 1. Kepala Lab mengklik tombol laporan <br> 2. Sistem menampilkan halaman laporan Laboratorium dan menampilkan hasil Laporan <br> 3. Kepala Laboratorium mencetak laporan |
+| Basic Path | 1. Kepala Laboratorium mengklik menu laporan <br> 2. Sistem menampilkan halaman laporan Laboratorium dan menampilkan hasil Laporan <br> 3. Kepala Laboratorium mencetak laporan |
 | Alternative | Tidak ada |
 | Post Condition |Halaman Laporan|
 | Exception Push | Tidak ada koneksi, data belum diinput |
@@ -381,31 +381,31 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.7 Mengelola LogBook  |
 | Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab|
 | Precondition | halaman utama Kepala Lab|
-| Basic Path | 1. Sistem menampilkan halaman SuperAdmin  <br> 2.Kepala Laboratorium melihat data logbook |  
-| Post Condition | Halaman Laporan|
+| Basic Path | 1. Sistem menampilkan halaman Admin  <br> 2.Kepala Laboratorium melihat data logbook<br> 3.Kepala laboratorium melihat menu pengaduan<br> |  
+| Post Condition | Halaman Laporan dan Pengaduan|
 | Exception Push | Tidak ada koneksi, data belum diinput |
 
 
-**3.2.8. Admin Mengelola LogBook**
+**3.2.8. Guru Mengelola LogBook**
 |  |  |
 |--|--|
 | Nama Fungsi | Laporan |
 | Xref | Bagian 2.2.8 Mengelola LogBook|
 | Trigger | Membuka aplikasi Sistem LogBook Lab |
-| Precondition | halaman utama  Admin|
-| Basic Path | 1.Sistem menampilkan halaman Admin <br> 2. Admin melihat data logbook |
+| Precondition | halaman utama Guru|
+| Basic Path | 1.Sistem menampilkan halaman Guru <br> 2. Guru melihat data logbook |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput|
 
 
-**3.2.9.Mahasiswa Mengisi LogBook**
+**3.2.9. Siswa Mengisi LogBook**
 |  |  |
 |--|--|
 | Nama Fungsi |laporan|
 | Xref | Bagian 2.2.9 Mengisi LogBook | 
 | Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
-| Precondition | halaman utama  user |
-| Basic Path |  1.Sistem menampilkan halaman user <br> 2 mahasiswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook<br> 3. Sistem akan menyimpan data logbook yang telah diisi |
+| Precondition | Halaman utama user |
+| Basic Path |  1.Sistem menampilkan halaman user <br> 2 mahasiswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook<br> 3. Sistem akan menyimpan data logbook yang telah diisi<br> 4.Siswa mengisi form pengaduan jika ada kerusakan yang dialami<br> |
 | Post Condition | Halaman Laporan |
 | Exception Push |Tidak ada koneksi, data belum diinput |
 
@@ -424,49 +424,31 @@ Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 | Id_user| int | Nomer auto increment Id_user|
 | Username | varchar | berisikan username untuk akses login user dan username untuk akses admin |
 | Password | varchar | berisikan password untuk login admin dan user |
-| nama | varchar | berisikan nama dari user yang masuk |
-| no_hp | number | berisikan no_hp dari user yang masuk|
 | roles | varchar | berisikan user yang memiliki akses yang berbeda |
 
 **Tabel Pengaduan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pengaduan | int | Nomer auto increment Id_pengaduan |
-| Id_user| int | untuk mengambil username, password dan roles admin pada tabel user |
+| Id_pengaduan | varchar | Nomer auto increment Id_pengaduan |
 | pc | varchar | berisikan pc dari siswa yang melakukan pengaduan |
-| lab | varchar | berisikan lab dari siswa yang melakukan pengaduan |
+| tanggal | date | berisikan tanggal kelas dari siswa |
 | nama | varchar | berisikan nama dari siswa yang melakukan pengaduan |
 | kelas | varchar | berisikan kelas dari siswa yang melakukan pengaduan |
-| jam | datetime | berisikan jam kelas dari siswa yang melakukan pengaduan |
-| mata_pelajaran | varchar | berisikan mata pelajaran dari siswa yang melakukan pengaduan |
-| keluhan | teks | berisikan keluhan dari siswa yang melakukan pengaduan |
+| keterangan | teks | berisikan keluhan dari siswa yang melakukan pengaduan |
 
-**Tabel Perangkat**
+**Tabel Log Kegiatan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_perangkat | int | Nomer auto increment Id_perangkat|
-| Id_Lab| int | foreignt key tabel lab |
-| Id_Laporan| int | foreignt key tabel Laporan |
-| nama | varchar | berisikan nama perangkat yang diinput |
-| deskripsi | teks | berisikan deskripsi yang menjelaskan kondisi dari perangkat |
-
-**Tabel Lab**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_Lab| int | Nomer auto increment Id_lab|
-| Id_Laporan| int | foreignt key tabel Laporan |
-| pic_lab | varchar | orang yang memeriksa lab |
-
-**Tabel Laporan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_laporan| int | Nomer auto increment Id_laporan|
-| Id_user| int | untuk mengambil username, password dan roles admin pada tabel user |
-| catatan | teks | berisi laporan maintenance |
+| Id | varchar | Nomer auto increment id_logkegiatan|
+| tanggal | date | berisikan tanggal kelas dari siswa |
+| pc | varchar | berisikan pc dari siswa yang menggunakan |
+| nama | varchar | berisikan nama dari siswa |
+| kelas | varchar | berisikan kelas dari siswa |
+| mata pelajaran | varchar | berisikan mata pelajaran yang sedang berlangsung |
+| jam masuk | time | berisikan jam masuk siswa saat menggunakan lab |
+| jam keluar | time | berisikan jam keluar siswa setelah siap menggunakan lab |
 
 **Job Desc** <br>
 **BAB 1 PENDHULUAN** <br>
