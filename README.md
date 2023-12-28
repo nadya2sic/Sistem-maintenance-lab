@@ -144,7 +144,7 @@ Deskripsi Langkah-Langkah:
 
 Use Case: login<br>
 Diagram: 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/f9cd138f17b34bf10c2b83aa7e06faa38e14089d/Screenshot%202023-12-04%20141547.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/2.2.2.png?raw=true)
 
 Deskripsi singkat Guru melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
@@ -228,7 +228,7 @@ Xref: Bagian 3.2.7, Cetak Laporan
 
 Use Case: Mengelola LogBook <br>
 Diagram : 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143659.png)
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/2.2.8.png?raw=true)
 
 Deskripsi langkah-langkah:
 
