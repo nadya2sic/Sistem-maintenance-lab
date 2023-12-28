@@ -411,15 +411,15 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/erd%203.png?raw=true)
+![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/ERD.png?raw=true)
 
 **Tabel User**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_user| int | Nomer auto increment Id_user|
-| Username | varchar | berisikan username untuk akses login user dan username untuk akses admin |
-| Password | varchar | berisikan password untuk login admin dan user |
+| Username | varchar | berisikan username untuk akses login |
+| Password | varchar | berisikan password untuk login |
 | roles | varchar | berisikan user yang memiliki akses yang berbeda |
 
 **Tabel Pengaduan**
@@ -445,6 +445,19 @@ Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 | mata pelajaran | varchar | berisikan mata pelajaran yang sedang berlangsung |
 | jam masuk | time | berisikan jam masuk siswa saat menggunakan lab |
 | jam keluar | time | berisikan jam keluar siswa setelah siap menggunakan lab |
+
+**Tabel Log Lab**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id | varchar | Nomer auto increment id_logkegiatan|
+| tanggal | date | berisikan tanggal kelas dari siswa |
+| mata pelajaran | varchar | berisikan mata pelajaran yang sedang berlangsung |
+| nama guru | varchar | berisikan nama guru yang mengajar dikelas tersebut |
+| kelas | varchar | berisikan kelas dari siswa |
+| hadir | int | berisikan jumlah yang hadir dikelas |
+| tidak hadir | int | berisikan jumlah yang tidak hadir dikelas |
+| keterangan | teks | berisikan tambahan ataupun note |
 
 **Job Desc** <br>
 **BAB 1 PENDHULUAN** <br>
