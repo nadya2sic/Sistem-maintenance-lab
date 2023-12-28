@@ -1,7 +1,7 @@
 <html>
 <body>
 <p align="center">
-  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="1200"/ > 
+  <img src="https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Cover.jpg?raw=true" width="900" height="1100"/ > 
 <p align="center"><b>
 </body>
 </html>
@@ -128,8 +128,8 @@ Tidak ada
 ![image](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/2.2.png?raw=true)
 **2.2.1 Kepala Laboratorium Login**
 
-Use Case: Login <br>
-Diagram : 
+Use Case : Login <br>
+Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/e9f3dc86e44e5200cd6808327bf92e87cd3f243c/Screenshot%202023-12-04%20141536.png)
 
 Deskripsi singkat Kepala Laboratorium melakukan login sebelum masuk ke tampilan home.
@@ -142,8 +142,8 @@ Deskripsi Langkah-Langkah:
 
 **2.2.2 Guru melakukan Login**
 
-Use Case: login<br>
-Diagram: 
+Use Case : login<br>
+Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/2.2.2.png?raw=true)
 
 Deskripsi singkat Guru melakukan login sebelum masuk ke tampilan home.
@@ -157,7 +157,7 @@ Deskripsi Langkah-Langkah:
 **2.2.3 Siswa melakukan Login**
 
 Use case : login<br>
-Diagram : 
+Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/b207b8453fb0a669f2b75f4211b5e18be5d4f0d5/Screenshot%202023-12-04%20152841.png)
 
 Deskripsi singkat siswa melakukan login sebelum masuk ke tampilan home.
@@ -171,9 +171,9 @@ Deskripsi Langkah-Langkah:
 
 **2.2.4 Kepala Laboratorium Mengelola User**
 
-Use Case: Mengelola User<br>
+Use Case : Mengelola User<br>
 
-Diagram :
+Diagram :<br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143125.png)
 
 Deskripsi singkat Kepala Lab mengelola user.
@@ -185,8 +185,8 @@ Deskripsi langkah-langkah:
       
 **2.2.5  Kepala Laboratorium Mengelola Dashboard**
 
-Use Case: Dashboard<br>
-Diagram:
+Use Case : Dashboard<br>
+Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143237.png)
       
 Deskripsi langkah-langkah:
@@ -197,8 +197,8 @@ Deskripsi langkah-langkah:
 
 **2.2.6   Kepala Laboratorium Mencetak Laporan**
 
-Use Case: laporan<br>
-Diagram:
+Use Case : laporan<br>
+Diagram :<br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143424.png)
 
 Deskripsi singkat Kepala Laboratorium mencetak laporan
@@ -209,8 +209,8 @@ Deskripsi langkah-langkah:
 
 **2.2.7 Kepala Laboratorium Mengelola LogBook**
 
-Use Case: Mengelola logbook<br>
-Diagram:
+Use Case : Mengelola logbook<br>
+Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143554.png)
 
 Deskripsi Langkah-langkah:
@@ -226,8 +226,8 @@ Xref: Bagian 3.2.7, Cetak Laporan
 
 **2.2.8 Guru mengelola logbook**
 
-Use Case: Mengelola LogBook <br>
-Diagram : 
+Use Case : Mengelola LogBook <br>
+Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/2.2.8.png?raw=true)
 
 Deskripsi langkah-langkah:
@@ -238,9 +238,9 @@ Deskripsi langkah-langkah:
 
 **2.2.9 Siswa mengisi logbook**
 
-Use Case: Mengisi LogBook <br>
-Diagram : 
-![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143727.png)
+Use Case : Mengisi LogBook <br>
+Diagram : <br>
+![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/2.2.9.png?raw=true)
 
 Deskripsi langkah-langkah:
 1. Siswa masuk ke halaman user<br>
