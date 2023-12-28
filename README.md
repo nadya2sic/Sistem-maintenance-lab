@@ -65,7 +65,7 @@ Berikut ini fungsi Admin:
 
 2.1   Perspektif produk
 ----------
-Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pada website. Terdapat 3 jenis yaitu Kepala Laboratorium sebagai SuperAdmin, Admin dan siswa sebagai User. Pengelolaan data dikelola oleh Admin pada website, Guru hanya bisa mengisi dan melihat data-data logbook dan siswa hanya bisa mengisi logbook.
+Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pada website. Terdapat 3 jenis yaitu Kepala Laboratorium sebagai Admin, Guru dan siswa sebagai User. Pengelolaan data dikelola oleh Admin pada website, Guru hanya bisa mengisi dan melihat data-data logbook dan siswa hanya bisa mengisi logbook.
 
 
 **2.1.2 Antarmuka pengguna**
@@ -97,9 +97,9 @@ Tidak ada
 
 **2.1.5 Antarmuka Komunikasi**
 
-Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Logbook SMK 1 PEKANBARU antara lain :
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Logbook SMK 1 Pekanbaru antara lain :
 
-1.  Kabel Lan UTP RJ45 
+1. Kabel Lan UTP RJ45 
 
 2. Modem 
 
@@ -144,13 +144,13 @@ Deskripsi Langkah-Langkah:
 3. Bila validasi berhasil akan mengarahkan ke halaman beranda<br>
 4. Bila gagal sistem akan menampilkan peringatan<br>
 
-**2.2.2 Admin melakukan Login**
+**2.2.2 Guru melakukan Login**
 
 Use Case: login<br>
 Diagram: 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/f9cd138f17b34bf10c2b83aa7e06faa38e14089d/Screenshot%202023-12-04%20141547.png)
 
-Deskripsi singkat Admin melakukan login sebelum masuk ke tampilan home.
+Deskripsi singkat Guru melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
 1. Admin melakukan login
@@ -158,7 +158,7 @@ Deskripsi Langkah-Langkah:
 3. Bila validasi berhasil akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-**2.2.3 siswa melakukan Login**
+**2.2.3 Siswa melakukan Login**
 
 Use case : login<br>
 Diagram : 
@@ -167,7 +167,7 @@ Diagram :
 Deskripsi singkat siswa melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
-1. Mahasiswa melakukan login
+1. Siswa melakukan login
 2. Sistem melakukan validasi
 3. Bila validasi berhasil akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
@@ -182,7 +182,7 @@ Diagram :
 
 Deskripsi singkat Kepala Lab mengelola user.
 Deskripsi langkah-langkah:
-1.Kepala Lab mengklik manajemen user,lalu kepala lab bisa melihat user,menghapus user,menambah user dan mengedit user <br>
+1.Kepala Lab mengklik manajemen user, lalu kepala lab bisa melihat, menghapus, menambah dan mengedit user <br>
 2.Sistem akan menyimpan data user dan akan menampilkan data user yang dipilih <br>
 3.Kepala Lab bisa menghapus hak akses user<br>
 
@@ -193,10 +193,9 @@ Use Case: Dashboard<br>
 Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143237.png)
       
-Deskripsi singkat Kepala Laboratorium mengelola Dashboard.
 Deskripsi langkah-langkah:
-1.Kepala lab masuk ke halaman dashboard SuperAdmin  <br>
-2.Sistem menampilkan halaman dashboard SuperAdmin <br>
+1.Kepala lab masuk ke halaman dashboard Admin  <br>
+2.Sistem menampilkan halaman dashboard Admin <br>
 3.Kepala lab dapat Melihat data dan dapat menambah,mengedit atau menghapus data.<br>
 4.Sistem melakukan validasi jika data sudah ada.<br>
 
@@ -212,48 +211,48 @@ Deskripsi langkah-langkah:
 2.Sistem menampilkan halaman laporan laboratorium dan menampilkan hasil laporan<br>
 3.Kepala Laboratorium mencetak laporan<br>
 
-**2.2.7 KKepala Laboratorium Mengelola LogBook**
+**2.2.7 Kepala Laboratorium Mengelola LogBook**
 
 Use Case: Mengelola logbook<br>
 Diagram:
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143554.png)
 
-Deskripsi Singkat Sistem akan mengirimkan data maintenance dan yang lainnya ke fungsi laporan. <br>
 Deskripsi Langkah-langkah:
 <br>
-1. Sistem menampilkan laporan maintenance lab.<br>
-2. Kepala teknisi memilih combobox tersebut dan klik tombol cetak.<br>
-3. Sistem akan menampilkan hasil laporan.<br>
-4. Kepala Teknisi mencetak laporan.<br>
+1. Kepala Laboratorium masuk ke halaman admin.<br>
+2. sistem menampilkan halaman Admin.<br>
+3. Kepala Laboratorium memilih menu laporan serta pengaduan
+4. Sistem akan menampilkan halaman.<br>
+5. Kepala Laboratorium melihat laporan serta pengaduan yang masuk.<br>
 
 Xref: Bagian 3.2.7, Cetak Laporan
 <br>
 
-**2.2.8 Admin mengelola logbook**
+**2.2.8 Guru mengelola logbook**
 
 Use Case: Mengelola LogBook <br>
 Diagram : 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143659.png)
 
-Deskripsi singkat Dosen AIL mengelola logbook
 Deskripsi langkah-langkah:
 
-1.Admin masuk ke halaman admin <br>
-2.Sistem menampilkan halaman admin<br>
-3.Admin mengisi logbook dan melihat data logbook<br>
+1. Guru masuk ke halaman utama <br>
+2. Sistem menampilkan halaman utama<br>
+3. Admin mengisi logbook dan melihat data logbook<br>
 
-**2.2.9 siswa mengisi logbook**
+**2.2.9 Siswa mengisi logbook**
 
 Use Case: Mengisi LogBook <br>
 Diagram : 
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143727.png)
 
-Deskripsi singkat mahasiswa mengisi logbook
 Deskripsi langkah-langkah:
-1.siswa masuk ke halaman user<br>
-2.Sistem menampilkan halaman user<br>
-3.siswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook.<br>
-4.Sistem akan menyimpan data logbook yang telah di isi.<br>
+1. Siswa masuk ke halaman user<br>
+2. Sistem menampilkan halaman user<br>
+3. Siswa mengisi data logbook dan mengirim atau menyimpan data ke sistem logbook.<br>
+4. Sistem akan menyimpan data logbook yang telah di isi.<br>
+5. Siswa mengisi pengaduan jika ada kesalahan atau kerusakan yang terjadi.<br>
+6. Sistem akan menyimpan data pengaduan jika ada yang di isi.<br>
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -270,7 +269,7 @@ Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinte
 
 2.5   Batasan-batasan
 ----------
-Perangkat lunak web hanya dapat digunakan di Windows (7,8,10), dan karena waktu pengembangan yang singkat, mungkin tidak semua fungsi dapat digunakan.
+Perangkat lunak web hanya dapat digunakan di Windows (7,8,10,11), dan karena waktu pengembangan yang singkat, mungkin tidak semua fungsi dapat digunakan.
 
 2.6   Asumsi-asumsi
 ----------
