@@ -59,7 +59,7 @@ Berikut ini fungsi Kepala Lab:
 * Edit Data Lab
 * Delete Data Lab
 * View Data Lab
-* Cetak Laporan
+
 
 2.1   Perspektif produk
 ----------
@@ -121,7 +121,7 @@ Tidak ada
 | Edit | Digunakan untuk mengubah data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
-| Cetak | Digunakan untuk mencetak laporan |
+
 
 **2.1.8 Kebutuhan adaptasi**
 
