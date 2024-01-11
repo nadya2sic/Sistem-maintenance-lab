@@ -10,7 +10,7 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Spesification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengisian LogBook".Dokumen ini dibangun untuk memudahkan siswa dalam mengisi logbook dan juga memudahkan kepala lab dan admin untuk melihat kondisi lab.
+Dokumen Software Requirement Spesification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengisian LogBook". Dokumen ini dibangun untuk memudahkan siswa dalam mengisi logbook dan juga memudahkan admin (kepala lab) untuk melihat kondisi lab.
 
 
 1.2   Lingkup
@@ -40,7 +40,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering. Dimana software engineering dapat digunakan dalam kehidupan sehari-hari. Dalam studi kasus ini kami menganalisis kebutuhan sekolah SMKN 1 Pekanbaru dalam pengisian logbook kegiatan di Laboratorium. Kasus yang kami peroleh yaitu Sistem Pengisian Logbook sekolah. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan Kepala Laboratorium dan admin dengan menerapkan Sistem Pengisian Logbook Sekolah. Sehingga memudahkan siswa mengisi logbook dan Memudahkan pemantauan kegiatan yang dilakukan di Laboratorium. Software yang kami buat ini berbasis website, di dalamnya terdapat logbook yang dapat diisi oleh siswa dan guru yang mengajar serta laporan(untuk Kepala Laboratorium). Berikut akan kami jelaskan sistem software kami, siswa fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering. Dimana software engineering dapat digunakan dalam kehidupan sehari-hari. Dalam studi kasus ini kami menganalisis kebutuhan sekolah SMKN 1 Pekanbaru dalam pengisian logbook kegiatan di Laboratorium. Kasus yang kami peroleh yaitu Sistem Pengisian Logbook sekolah. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan Kepala Laboratorium (Admin) dengan menerapkan Sistem Pengisian Logbook Sekolah. Sehingga memudahkan siswa mengisi logbook dan Memudahkan pemantauan kegiatan yang dilakukan di Laboratorium. Software yang kami buat ini berbasis website, di dalamnya terdapat logbook yang dapat diisi oleh siswa dan guru yang mengajar serta laporan(untuk Kepala Laboratorium). Berikut akan kami jelaskan sistem software kami, siswa fungsi utama yaitu :
 * Input Nama
 * Input Kelas
 * Input Guru
@@ -84,9 +84,9 @@ Sistem LogBook adalah sebuah sistem untuk mengisi logbook yang diaplikasikan pad
  **2.1.3 Antarmuka perangkat keras**
 
 ![enter image description here](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/AntarMukaHardware.png?raw=true)
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem LogBook Laboratorium antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem LogBook SMKN 1 antara lain :
 
-PC / Laptop untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows,Linux, atau MAC dan sudah terinstall browser.
+PC / Laptop untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser.
 
 **2.1.4 Antarmuka perangkat lunak**
 
@@ -132,7 +132,6 @@ Use Case : Login <br>
 Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/e9f3dc86e44e5200cd6808327bf92e87cd3f243c/Screenshot%202023-12-04%20141536.png)
 
-Deskripsi singkat Kepala Laboratorium melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
 1. Kepala Laboratorium melakukan login <br>
@@ -146,10 +145,9 @@ Use Case : login<br>
 Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/main/Image%20SRS/2.2.2.png?raw=true)
 
-Deskripsi singkat Guru melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
-1. Admin melakukan login
+1. Guru melakukan login
 2. Sistem melakukan validasi
 3. Bila validasi berhasil akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
@@ -160,7 +158,6 @@ Use case : login<br>
 Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/b207b8453fb0a669f2b75f4211b5e18be5d4f0d5/Screenshot%202023-12-04%20152841.png)
 
-Deskripsi singkat siswa melakukan login sebelum masuk ke tampilan home.
 Deskripsi Langkah-Langkah:
 
 1. Siswa melakukan login
@@ -176,8 +173,7 @@ Use Case : Mengelola User<br>
 Diagram :<br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143125.png)
 
-Deskripsi singkat Kepala Lab mengelola user.
-Deskripsi langkah-langkah:
+Deskripsi langkah-langkah: <br>
 1.Kepala Lab mengklik manajemen user, lalu kepala lab bisa melihat, menghapus, menambah dan mengedit user <br>
 2.Sistem akan menyimpan data user dan akan menampilkan data user yang dipilih <br>
 3.Kepala Lab bisa menghapus hak akses user<br>
@@ -189,7 +185,7 @@ Use Case : Dashboard<br>
 Diagram : <br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143237.png)
       
-Deskripsi langkah-langkah:
+Deskripsi langkah-langkah: <br>
 1.Kepala lab masuk ke halaman dashboard Admin  <br>
 2.Sistem menampilkan halaman dashboard Admin <br>
 3.Kepala lab dapat Melihat data dan dapat menambah,mengedit atau menghapus data.<br>
@@ -201,8 +197,7 @@ Use Case : laporan<br>
 Diagram :<br>
 ![](https://github.com/nadya2sic/Sistem-maintenance-lab/blob/4eb6b3b8028f443678f711c06cc21aaf2e8bc4cc/Screenshot%202023-12-04%20143424.png)
 
-Deskripsi singkat Kepala Laboratorium mencetak laporan
-Deskripsi langkah-langkah:
+Deskripsi langkah-langkah: <br>
 1.Kepala Lab masuk ke halaman laporan laboratorium<br>
 2.Sistem menampilkan halaman laporan laboratorium dan menampilkan hasil laporan<br>
 3.Kepala Laboratorium mencetak laporan<br>
@@ -216,13 +211,10 @@ Diagram : <br>
 Deskripsi Langkah-langkah:
 <br>
 1. Kepala Laboratorium masuk ke halaman admin.<br>
-2. sistem menampilkan halaman Admin.<br>
+2. Sistem menampilkan halaman Admin.<br>
 3. Kepala Laboratorium memilih menu laporan serta pengaduan
 4. Sistem akan menampilkan halaman.<br>
 5. Kepala Laboratorium melihat laporan serta pengaduan yang masuk.<br>
-
-Xref: Bagian 3.2.7, Cetak Laporan
-<br>
 
 **2.2.8 Guru mengelola logbook**
 
@@ -234,7 +226,7 @@ Deskripsi langkah-langkah:
 
 1. Guru masuk ke halaman utama <br>
 2. Sistem menampilkan halaman utama<br>
-3. Admin mengisi logbook dan melihat data logbook<br>
+3. Guru mengisi logbook dan melihat data logbook<br>
 
 **2.2.9 Siswa mengisi logbook**
 
@@ -280,24 +272,23 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakases aplikasi ini yaitu dengan hak akses yang di berikan oleh Kepala Laboratorium, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username Kepala Laboratorium dan Laboratorium. Setelah login berhasil Kepala Laboratorium dapat melihat kegiatan yang dilakukan di laboratorium dan dapat mencetak laporan perminggu dan perbulan.
-
+Salah satu cara mengakases aplikasi ini yaitu dengan hak akses yang di berikan oleh Kepala Laboratorium, login melalui aplikasi ini dengan mencantumkan email kemudian sistem akan mencocokkan email Kepala Laboratorium dan Laboratorium. Setelah login berhasil Kepala Laboratorium dapat melihat kegiatan yang dilakukan di laboratorium dan dapat mencetak laporan.
       
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1Kepala Laboratorium Login**
+**3.2.1 Kepala Laboratorium Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.1, Login Kepala Lab |
-| Trigger | Membuka aplikasi Sistem Pengisian LogBook  Lab |
+| Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
 | Precondition | Halaman Login|
-| Basic Path | 1. Kepala Laboratorium mengisi form login dengan username dan password <br> 2. Kepala Laboratorium mengklik tombol login<br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Kepala Laboratorium mengisi form login dengan email dan password <br> 2. Kepala Laboratorium mengklik tombol login<br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Kepala Laboratorium dapat login dan mengakses aplikasi MSistem Pengisian LogBook |
+| Post Condition | Kepala Laboratorium dapat login dan mengakses aplikasi Sistem Pengisian LogBook |
 | Exception Push | Username dan password salah |
 
 <br>
@@ -310,7 +301,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.2 Login guru |
 | Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
 | Precondition | Halaman login Guru |
-| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login  <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br> 4. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Guru melakukan login dengan email dan password <br> 2. Sistem melakukan validasi login  <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda<br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Guru berhasil login dan mengakses Sistem Pengisian LogBook |
 | Exception Push | Username dan password salah |
@@ -325,9 +316,9 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.3 Siswa Login |
 | Trigger | Membuka Aplikasi Sistem LogBook Laboratorium |
 | Precondition | Halaman login |
-| Basic Path | 1. Siswa mengisi form login dengan username dan password masing-masing<br> 2. Siswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br>  |Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Siswa mengisi form login dengan email dan password masing-masing<br> 2. Siswa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br>  |Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | siswa dapat login dan mengakses aplikasi Sistem Pengisian LogBook|
+| Post Condition | Siswa dapat login dan mengakses aplikasi Sistem Pengisian LogBook|
 | Exception Push | Username dan password salah |
 
 <br>
@@ -336,8 +327,8 @@ Logika Struktur terdapat pada bagian 3.3.1
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola User|
-| Xref | Bagian 2.2.4, Mengelola User |
-| Trigger |Membuka aplikasi Sistem LogBook Laboratorium |
+| Xref | Bagian 2.2.4 Mengelola User |
+| Trigger |Membuka aplikasi Sistem LogBook |
 | Precondition | Halaman utama Kepala Laboratorium|
 | Basic Path | 1. Sistem menampilkan form.<br> 2. Kepala Laboratorium mengklik manajemen user, lalu kepala lab bisa melihat user, menghapus user,menambah user dan mengedit <br> 3. Sistem akan menyimpan data user ke database |
 | Post Condition |Halaman user |
@@ -350,7 +341,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 |  |  |
 |--|--|
 | Nama Fungsi |Mengelola Dashboard |
-| Xref |Bagian 2.2.5, Mengelola Dashboard |
+| Xref |Bagian 2.2.5 Mengelola Dashboard |
 | Trigger | Membuka Sistem Pengisian LogBook Laboratorium |
 | Precondition | Halaman utama Kepala Laboratorium |
 | Basic Path | 1. Sistem menampilkan halaman dashboard Admin <br> 2. Kepala laboratorium dapat melihat data dan menambah, mengedit atau menghapus data <br> 3. Sistem melakukan validasi jika data sudah ada|
@@ -397,7 +388,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.2.9. Siswa Mengisi LogBook**
 |  |  |
 |--|--|
-| Nama Fungsi |laporan|
+| Nama Fungsi |Laporan|
 | Xref | Bagian 2.2.9 Mengisi LogBook | 
 | Trigger | Membuka aplikasi Sistem Pengisian LogBook Lab |
 | Precondition | Halaman utama user |
@@ -418,7 +409,9 @@ Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_user| int | Nomer auto increment Id_user|
+| nama | varchar | berisikan nama untuk akses login |
 | Username | varchar | berisikan username untuk akses login |
+| email | varchar | berisikan email untuk akses login |
 | Password | varchar | berisikan password untuk login |
 | roles | varchar | berisikan user yang memiliki akses yang berbeda |
 
@@ -427,13 +420,16 @@ Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_pengaduan | varchar | Nomer auto increment Id_pengaduan |
-| pc | varchar | berisikan pc dari siswa yang melakukan pengaduan |
-| tanggal | date | berisikan tanggal kelas dari siswa |
+| nama_lab | varchar | berisikan nama lab yang digunakan |
+| nama_komputer | varchar | berisikan no komputer yang digunakan |
 | nama | varchar | berisikan nama dari siswa yang melakukan pengaduan |
 | kelas | varchar | berisikan kelas dari siswa yang melakukan pengaduan |
+| mata_pelajaran | varchar | berisikan mata pelajaran |
 | keterangan | teks | berisikan keluhan dari siswa yang melakukan pengaduan |
+| jam | time | berisikan jam saat pengaduan dibuat|
 
-**Tabel Log Kegiatan**
+
+**Tabel LogBook**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
@@ -445,19 +441,6 @@ Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 | mata pelajaran | varchar | berisikan mata pelajaran yang sedang berlangsung |
 | jam masuk | time | berisikan jam masuk siswa saat menggunakan lab |
 | jam keluar | time | berisikan jam keluar siswa setelah siap menggunakan lab |
-
-**Tabel Log Lab**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id | varchar | Nomer auto increment id_logkegiatan|
-| tanggal | date | berisikan tanggal kelas dari siswa |
-| mata pelajaran | varchar | berisikan mata pelajaran yang sedang berlangsung |
-| nama guru | varchar | berisikan nama guru yang mengajar dikelas tersebut |
-| kelas | varchar | berisikan kelas dari siswa |
-| hadir | int | berisikan jumlah yang hadir dikelas |
-| tidak hadir | int | berisikan jumlah yang tidak hadir dikelas |
-| keterangan | teks | berisikan tambahan ataupun note |
 
 **Job Desc** <br>
 **BAB 1 PENDHULUAN** <br>
@@ -486,7 +469,6 @@ Struktur data logika pada Sistem Aplikasi Logbook dijelaskan menggunakan ERD.
 3.1 Persyaratan Antarmuka Eksternal : Nadya, Nurul, Octa <br>
 3.2 Functional Requirement : Nadya, Nurul, Octa <br>
 3.3 Struktur Detail Kebutuhan Non-Fungsional : Octa <br>
-FIGMA : Nurul <br>
 GitHub : Nadya, Nurul, Octa <br>
 
 
